@@ -1,0 +1,36 @@
+{
+  "name": "compliance-shelf",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence review, records protection, and simulated VA/SSA funding for the VT x Accenture Build Challenge",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "node services/run.mjs",
+    "start": "node services/run.mjs",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm test && npm run typecheck && npm run build",
+    "dev:standalone": "npm --prefix apps/records-contracting run dev",
+    "dev:video": "python -m uvicorn app.main:app --host 127.0.0.1 --port 8000",
+    "test": "npm --prefix apps/records-contracting test && node --test services/tests/*.test.mjs",
+    "test:video": "python -m pytest tests",
+    "build": "npm --prefix apps/records-contracting run build && node services/build.mjs",
+    "demo": "npm --prefix apps/records-contracting run demo",
+    "demo:pitch": "node services/pitch-demo.mjs",
+    "demo:agencies": "node services/pitch-demo.mjs",
+    "demo:va": "node services/contract-review-demo.mjs",
+    "build:aws": "node infra/aws/build.mjs",
+    "build:aws-demo": "node infra/aws-demo/build.mjs",
+    "dev:services": "node services/run.mjs",
+    "service": "node services/start.mjs",
+    "services:init": "node services/init.mjs",
+    "demo:contract-review": "node services/contract-review-demo.mjs",
+    "demo:completed": "node services/completed-contract-review-demo.mjs",
+    "demo:funding": "node services/funding-demo.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

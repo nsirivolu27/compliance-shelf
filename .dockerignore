@@ -1,0 +1,17 @@
+**
+!package.json
+!services/
+!services/**
+services/tests/
+!apps/
+!apps/records-contracting/
+!apps/records-contracting/package.json
+!apps/records-contracting/src/
+!apps/records-contracting/src/**
+!apps/records-contracting/data/
+!apps/records-contracting/data/**
+!apps/records-contracting/public/
+!apps/records-contracting/public/**
+!infra/
+!infra/local/
+!infra/local/Dockerfile

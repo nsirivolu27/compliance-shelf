@@ -1,0 +1,417 @@
+{
+  "presets": [
+    {
+      "id": "va-system-delivery",
+      "name": "VA system delivery (example)",
+      "description": "A configurable review aid for one release of one made-up system. The checks are examples, not a list of artifacts every release must produce. A reviewer decides whether each check applies; a relevant artifact that is missing stays an evidence gap.",
+      "profile": {
+        "organization": {
+          "name": "Department of Veterans Affairs (synthetic example)",
+          "kind": "agency"
+        },
+        "businessUnit": "Example delivery office (synthetic)",
+        "family": "System delivery",
+        "sources": [
+          {
+            "id": "va-sd-grs-3-1-item-011",
+            "title": "GRS 3.1 item 011 - System development records",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs03-1.pdf",
+            "locator": "General Records Schedule 3.1, Transmittal 30 (November 2019), item 011; disposition authority DAA-GRS-2013-0005-0007",
+            "scope": "Government-wide disposition item for a type of record. It lists example records and does not require any release to produce them. Whether it applies to a particular system's records is for the agency's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "va-sd-grs-3-1-item-030",
+            "title": "GRS 3.1 item 030 - Configuration and change management records",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs03-1.pdf",
+            "locator": "General Records Schedule 3.1, Transmittal 30 (November 2019), item 030; disposition authority DAA-GRS-2013-0005-0005",
+            "scope": "Government-wide disposition item for a type of record. It lists example records and does not require any release to produce them. Whether it applies to a particular system's records is for the agency's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "va-sd-36-cfr-1222",
+            "title": "36 CFR part 1222 - Creation and Maintenance of Federal Records",
+            "url": "https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1222",
+            "locator": "Sections 1222.10 to 1222.16 and 1222.26",
+            "scope": "Federal regulation on identifying and maintaining records. It prescribes no checklist for this product. Material whose record status is unclear is treated as a record.",
+            "checkedOn": "2026-11-18"
+          }
+        ],
+        "checkSet": {
+          "id": "va-system-delivery",
+          "name": "VA system delivery (example)",
+          "checks": [
+            {
+              "kind": "requirements-evidence",
+              "title": "Requirements evidence",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "design-evidence",
+              "title": "Design evidence",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "change-approval",
+              "title": "Change approval evidence",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-030"
+              ]
+            },
+            {
+              "kind": "test-evidence",
+              "title": "Test evidence",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "release-evidence",
+              "title": "Release evidence",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-030"
+              ]
+            },
+            {
+              "kind": "security-privacy-plan",
+              "title": "Security and privacy plan evidence",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-011"
+              ]
+            }
+          ],
+          "policySourceIds": [
+            "va-sd-36-cfr-1222"
+          ],
+          "recordsSourceIds": [
+            "va-sd-36-cfr-1222",
+            "va-sd-grs-3-1-item-011",
+            "va-sd-grs-3-1-item-030"
+          ],
+          "expectedRecords": [
+            {
+              "kind": "system-development-records",
+              "title": "System development records",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "change-management-records",
+              "title": "Configuration and change management records",
+              "sourceIds": [
+                "va-sd-grs-3-1-item-030"
+              ]
+            }
+          ],
+          "paperwork": [
+            "PW-SF135",
+            "PW-NA13001",
+            "PW-A50-CAP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ssa-system-delivery",
+      "name": "SSA system delivery (example)",
+      "description": "A configurable review aid for one release of one made-up system. The checks are examples, not a list of artifacts every release must produce. A reviewer decides whether each check applies; a relevant artifact that is missing stays an evidence gap.",
+      "profile": {
+        "organization": {
+          "name": "Social Security Administration (synthetic example)",
+          "kind": "agency"
+        },
+        "businessUnit": "Example delivery office (synthetic)",
+        "family": "System delivery",
+        "sources": [
+          {
+            "id": "ssa-sd-grs-3-1-item-011",
+            "title": "GRS 3.1 item 011 - System development records",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs03-1.pdf",
+            "locator": "General Records Schedule 3.1, Transmittal 30 (November 2019), item 011; disposition authority DAA-GRS-2013-0005-0007",
+            "scope": "Government-wide disposition item for a type of record. It lists example records and does not require any release to produce them. Whether it applies to a particular system's records is for the agency's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ssa-sd-grs-3-1-item-030",
+            "title": "GRS 3.1 item 030 - Configuration and change management records",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs03-1.pdf",
+            "locator": "General Records Schedule 3.1, Transmittal 30 (November 2019), item 030; disposition authority DAA-GRS-2013-0005-0005",
+            "scope": "Government-wide disposition item for a type of record. It lists example records and does not require any release to produce them. Whether it applies to a particular system's records is for the agency's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ssa-sd-36-cfr-1222",
+            "title": "36 CFR part 1222 - Creation and Maintenance of Federal Records",
+            "url": "https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1222",
+            "locator": "Sections 1222.10 to 1222.16 and 1222.26",
+            "scope": "Federal regulation on identifying and maintaining records. It prescribes no checklist for this product. Material whose record status is unclear is treated as a record.",
+            "checkedOn": "2026-11-18"
+          }
+        ],
+        "checkSet": {
+          "id": "ssa-system-delivery",
+          "name": "SSA system delivery (example)",
+          "checks": [
+            {
+              "kind": "requirements-evidence",
+              "title": "Requirements evidence",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "design-evidence",
+              "title": "Design evidence",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "change-approval",
+              "title": "Change approval evidence",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-030"
+              ]
+            },
+            {
+              "kind": "test-evidence",
+              "title": "Test evidence",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "release-evidence",
+              "title": "Release evidence",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-030"
+              ]
+            },
+            {
+              "kind": "security-privacy-plan",
+              "title": "Security and privacy plan evidence",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-011"
+              ]
+            }
+          ],
+          "policySourceIds": [
+            "ssa-sd-36-cfr-1222"
+          ],
+          "recordsSourceIds": [
+            "ssa-sd-36-cfr-1222",
+            "ssa-sd-grs-3-1-item-011",
+            "ssa-sd-grs-3-1-item-030"
+          ],
+          "expectedRecords": [
+            {
+              "kind": "system-development-records",
+              "title": "System development records",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "change-management-records",
+              "title": "Configuration and change management records",
+              "sourceIds": [
+                "ssa-sd-grs-3-1-item-030"
+              ]
+            }
+          ],
+          "paperwork": [
+            "PW-A50-CAP",
+            "PW-SAORM",
+            "PW-RMSA",
+            "PW-FEREM"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ssa-benefit-statement",
+      "name": "SSA benefit statement review (example)",
+      "description": "One check for one made-up beneficiary-year: is a benefit statement expected, and is a reference to it on file. Applicability is decided per case by a reviewer. Nothing here calculates tax or decides tax treatment or eligibility.",
+      "profile": {
+        "organization": {
+          "name": "Social Security Administration (synthetic example)",
+          "kind": "agency"
+        },
+        "businessUnit": "Example benefit payment office (synthetic)",
+        "family": "Tax and financial",
+        "sources": [
+          {
+            "id": "ssa-bs-ssa-tax-form",
+            "title": "SSA - Get tax form (1099/1042S)",
+            "url": "https://www.ssa.gov/manage-benefits/get-tax-form-10991042s",
+            "locator": "Whole page, as modified 2026-08-06",
+            "scope": "Public SSA statement about benefit tax forms, including that a person whose only SSA payment is SSI is not issued one. It says nothing about how staff review or retain statements, and nothing about whether a benefit is taxable.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ssa-bs-36-cfr-1222",
+            "title": "36 CFR part 1222 - Creation and Maintenance of Federal Records",
+            "url": "https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1222",
+            "locator": "Sections 1222.10 to 1222.16 and 1222.26",
+            "scope": "Federal regulation on identifying and maintaining records. It prescribes no checklist for this product. Material whose record status is unclear is treated as a record.",
+            "checkedOn": "2026-11-18"
+          }
+        ],
+        "checkSet": {
+          "id": "ssa-benefit-statement",
+          "name": "SSA benefit statement review (example)",
+          "checks": [
+            {
+              "kind": "benefit-statement",
+              "title": "Benefit statement evidence",
+              "sourceIds": [
+                "ssa-bs-ssa-tax-form"
+              ]
+            }
+          ],
+          "policySourceIds": [
+            "ssa-bs-ssa-tax-form"
+          ],
+          "recordsSourceIds": [
+            "ssa-bs-36-cfr-1222"
+          ],
+          "paperwork": [
+            "PW-A50-CAP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "public-sector-records",
+      "name": "Public sector records (general example)",
+      "description": "A general starting point for documenting and scheduling records in a public sector office: an inventory, an owner for each record, a schedule reference, and a hold review. The expected record types are examples drawn from two government-wide schedules. It is a review aid; it does not decide which schedule applies or what must be kept.",
+      "profile": {
+        "organization": {
+          "name": "Public sector organization (synthetic example)",
+          "kind": "agency"
+        },
+        "businessUnit": "Example records office (synthetic)",
+        "family": "General records",
+        "sources": [
+          {
+            "id": "ps-grs-1-1-item-010",
+            "title": "GRS 1.1 item 010 - Financial transaction records (official record)",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs01-1.pdf",
+            "locator": "General Records Schedule 1.1, Transmittal 31 (April 2020), item 010; disposition authority DAA-GRS-2013-0003-0001",
+            "scope": "Government-wide disposition item for the official record held in the office of record: 6 years after final payment or cancellation, with longer retention allowed for business use. It excludes contractor-maintained records and agency-unique mission records. Whether it applies to a particular record is for the organization's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ps-grs-3-1-item-011",
+            "title": "GRS 3.1 item 011 - System development records",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs03-1.pdf",
+            "locator": "General Records Schedule 3.1, Transmittal 30 (November 2019), item 011; disposition authority DAA-GRS-2013-0005-0007",
+            "scope": "Government-wide disposition item for a type of record. It does not cover system data or content and does not require any record to be created. Whether it applies to a particular record is for the organization's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ps-grs-3-1-item-030",
+            "title": "GRS 3.1 item 030 - Configuration and change management records",
+            "url": "https://www.archives.gov/files/records-mgmt/grs/grs03-1.pdf",
+            "locator": "General Records Schedule 3.1, Transmittal 30 (November 2019), item 030; disposition authority DAA-GRS-2013-0005-0005",
+            "scope": "Government-wide disposition item for a type of record. It does not require any record to be created. Whether it applies to a particular record is for the organization's records officer; that is not decided here.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ps-36-cfr-1222",
+            "title": "36 CFR part 1222 - Creation and Maintenance of Federal Records",
+            "url": "https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1222",
+            "locator": "Sections 1222.10 to 1222.16 and 1222.26",
+            "scope": "Federal regulation on identifying and maintaining records. It applies to federal agencies and prescribes no checklist for this product. Material whose record status is unclear is treated as a record.",
+            "checkedOn": "2026-11-18"
+          },
+          {
+            "id": "ps-36-cfr-1226",
+            "title": "36 CFR part 1226 - Implementing Disposition",
+            "url": "https://www.ecfr.gov/current/title-36/chapter-XII/subchapter-B/part-1226",
+            "locator": "Sections 1226.10, 1226.14, and 1226.18",
+            "scope": "Federal regulation on applying approved schedules. It applies to federal agencies. It does not say which schedule covers a given record, and it does not use the term litigation hold.",
+            "checkedOn": "2026-11-18"
+          }
+        ],
+        "checkSet": {
+          "id": "public-sector-records",
+          "name": "Public sector records (general example)",
+          "checks": [
+            {
+              "kind": "record-inventory",
+              "title": "Record inventory evidence",
+              "sourceIds": [
+                "ps-36-cfr-1222"
+              ]
+            },
+            {
+              "kind": "custodian-assignment",
+              "title": "Records custodian assignment evidence",
+              "sourceIds": [
+                "ps-36-cfr-1222"
+              ]
+            },
+            {
+              "kind": "schedule-reference",
+              "title": "Records schedule reference evidence",
+              "sourceIds": [
+                "ps-36-cfr-1226"
+              ]
+            },
+            {
+              "kind": "hold-review",
+              "title": "Hold review evidence",
+              "sourceIds": [
+                "ps-36-cfr-1226"
+              ]
+            }
+          ],
+          "policySourceIds": [
+            "ps-36-cfr-1222"
+          ],
+          "recordsSourceIds": [
+            "ps-36-cfr-1222",
+            "ps-36-cfr-1226"
+          ],
+          "expectedRecords": [
+            {
+              "kind": "financial-transaction-records",
+              "title": "Financial transaction records",
+              "sourceIds": [
+                "ps-grs-1-1-item-010"
+              ]
+            },
+            {
+              "kind": "system-development-records",
+              "title": "System development records",
+              "sourceIds": [
+                "ps-grs-3-1-item-011"
+              ]
+            },
+            {
+              "kind": "change-management-records",
+              "title": "Configuration and change management records",
+              "sourceIds": [
+                "ps-grs-3-1-item-030"
+              ]
+            }
+          ],
+          "paperwork": [
+            "PW-SF135",
+            "PW-NA13001",
+            "PW-A50-CAP",
+            "PW-SAORM",
+            "PW-RMSA",
+            "PW-FEREM"
+          ]
+        }
+      }
+    }
+  ]
+}

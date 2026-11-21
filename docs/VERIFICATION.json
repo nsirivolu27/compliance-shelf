@@ -1,0 +1,18 @@
+{
+  "test": 0,
+  "build": 0,
+  "typecheck": 0,
+  "node": "v22.23.5",
+  "checkedAt": "2026-11-21T00:44:31.009772-05:00",
+  "appTests": 111,
+  "serviceTests": 26,
+  "scope": "npm application and services; optional Python module not tested",
+  "freshInstall": "npm ci with pinned TypeScript 5.9.3",
+  "githubActions": {
+    "workflow": "verify.yml",
+    "url": "https://github.com/nsirivolu27/compliance-shelf/actions/workflows/verify.yml",
+    "note": "The local results above were measured before publication. The linked hosted runs report verification of each published commit."
+  },
+  "demo": "Funding integration test starts an isolated fresh stack and verifies seeding, approval/refusal, history and exports",
+  "regression": "Cross-platform diagnostic filenames tested for Windows, POSIX, mixed and UNC paths."
+}

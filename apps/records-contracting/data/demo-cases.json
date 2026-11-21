@@ -1,0 +1,25 @@
+[
+  {
+    "id": "DEMO-VA-001", "title": "Records digitization services", "agency": "Department of Veterans Affairs", "provenance": "synthetic", "owner": "Demo contracting officer", "policyBasisConfirmed": false,
+    "applicability": { "signed-award": "yes", "funding": "yes", "market-research": "yes", "records-plan": "yes" },
+    "evidence": [{ "id": "EV-001", "kind": "signed-award", "title": "Synthetic signed award reference", "locator": "demo://DEMO-VA-001/award", "verified": true, "provenance": "synthetic" }],
+    "records": [{ "id": "REC-001", "title": "Digitization contract file", "owner": "Demo records officer", "schedule": { "authority": "FAR 4.805 Table 4-1(1), synthetic applicability assumption", "years": 6, "trigger": "final-payment", "confirmed": true }, "finalPaymentDate": "2018-10-31", "hold": "active" }]
+  },
+  {
+    "id": "DEMO-VA-002", "title": "Facilities maintenance support", "agency": "Department of Veterans Affairs", "provenance": "synthetic", "owner": "Demo acquisition analyst", "policyBasisConfirmed": false,
+    "applicability": { "signed-award": "yes", "funding": "yes", "market-research": "unknown", "records-plan": "unknown" },
+    "evidence": [{ "id": "EV-002", "kind": "signed-award", "title": "Synthetic award reference", "locator": "demo://DEMO-VA-002/award", "verified": true, "provenance": "synthetic" }, { "id": "EV-003", "kind": "funding", "title": "Unverified funding reference", "locator": "demo://DEMO-VA-002/funding", "verified": false, "provenance": "synthetic" }],
+    "records": [{ "id": "REC-002", "title": "Maintenance correspondence", "owner": null, "schedule": null, "finalPaymentDate": null, "hold": "unknown" }]
+  },
+  {
+    "id": "DEMO-VA-003", "title": "Completed equipment support contract", "agency": "Department of Veterans Affairs", "provenance": "synthetic", "owner": "Demo contracting officer", "policyBasisConfirmed": true,
+    "applicability": { "signed-award": "yes", "funding": "yes", "market-research": "no", "records-plan": "yes" },
+    "evidence": [{ "id": "EV-004", "kind": "signed-award", "title": "Synthetic award reference", "locator": "demo://DEMO-VA-003/award", "verified": true, "provenance": "synthetic" }, { "id": "EV-005", "kind": "funding", "title": "Synthetic funds certification reference", "locator": "demo://DEMO-VA-003/funds", "verified": true, "provenance": "synthetic" }, { "id": "EV-006", "kind": "records-plan", "title": "Synthetic records obligations reference", "locator": "demo://DEMO-VA-003/records", "verified": true, "provenance": "synthetic" }],
+    "records": [{ "id": "REC-003", "title": "Completed contract file", "owner": "Demo records officer", "schedule": { "authority": "FAR 4.805 Table 4-1(1), synthetic applicability assumption", "years": 6, "trigger": "final-payment", "confirmed": true }, "finalPaymentDate": "2019-03-15", "hold": "none" }],
+    "policyReviews": [{ "id": "DEMO-POLICY-REVIEW-001", "caseId": "DEMO-VA-003", "at": "2026-09-10T15:00:00.000Z", "caseRevision": 0, "reviewer": "Synthetic demo policy reviewer", "actor": "synthetic-demo-seed", "identity": "unverified-local-demo", "synthetic": true,
+      "decisions": [
+      {"policyId": "far-part-4", "versionId": "far-part-4@va-class-deviation-2025-11-03", "applicability": "confirmed", "basis": "Synthetic example: the made-up reviewer recorded that this made-up VA case follows the class deviation text. This is not a real VA determination."},
+      {"policyId": "vaar", "versionId": "vaar@codified", "applicability": "confirmed", "basis": "Synthetic example: recorded on 2026-09-10, before the RFO VAAR class deviations took effect on 2026-10-01. This is not a real VA determination."}],
+      "note": "Synthetic policy review seeded for the demonstration. It shows a confirmation that a later policy update sends back for reassessment." }]
+  }
+]

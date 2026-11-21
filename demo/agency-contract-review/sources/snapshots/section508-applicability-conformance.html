@@ -1,0 +1,613 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+  <!-- BASIC PAGE NEEDS -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- MOBILE-SPECIFIC METAS -->
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- TITLE AND META DESCRIPTIONS -->
+  <title>Applicability & Conformance Requirements | Section508.gov</title>
+  <meta name="description" content="Understand the applicability and conformance standards of Section 508, including when the requirements apply and how to meet accessibility guidelines effectively." />
+  
+  <!-- CONONICAL URL -->  
+  <link rel="canonical" href="https://www.section508.gov/develop/applicability-conformance/" />
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="Section508.gov" />
+  <meta property="og:description" content="Understand the applicability and conformance standards of Section 508, including when the requirements apply and how to meet accessibility guidelines effectively." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.section508.gov/develop/applicability-conformance/" />
+  <meta property="og:image" content="https://www.section508.gov//assets/images/social-media-og-image.jpg" />
+  <meta property="og:image:alt" content="GSA logo. Section508.gov. Buy. Build. Be Accessible." />
+  <meta property="og:site_name" content="Section508.gov" />
+
+  <!-- TWITER CARDS -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:title" content="Applicability & Conformance Requirements" />
+  <meta name="twitter:description" content="Understand the applicability and conformance standards of Section 508, including when the requirements apply and how to meet accessibility guidelines effectively." />
+  <meta name="twitter:image" content="https://www.section508.gov/assets/images/social-media-og-image.jpg" />
+  <meta name="twitter:image:alt" content="GSA logo. Section508.gov. Buy. Build. Be Accessible." />
+
+  <!-- FAVICONS -->
+  <!-- 128x128 -->
+  <link
+    rel="shortcut icon"
+    type="image/ico"
+    href="/assets/images/favicon.ico"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/assets/images/favicon.ico"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="/assets/images/android-chrome-192x192.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/assets/images/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/images/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/assets/images/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/assets/images/site.webmanifest" />
+
+  <!-- CSS -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/assets/css/index.css?1795003494555221387"
+  />
+  
+  <!-- SCRIPT -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+  <script src="/assets/js/uswds-init.min.js?1795003494555221387"></script>
+
+  <!-- CUSTOM META DATA -->
+  <meta name="topic" content="Develop" />
+  <meta name="sub-topic" content="" />
+  <meta name="audience" content="Developers, Policy and Law Makers, Section 508 Program Managers" />
+  <meta name="resource-type" content="Article" />
+  <meta name="format" content="HTML" />
+</head>
+
+<body>
+  
+
+<section aria-label="Official Government Site Banner" class="page-landing-page layout-demo ">
+  
+  <a class="usa-skipnav" href="#main-content">Skip to secondary navigation</a>
+  <a class="usa-skipnav" href="#content-section">Skip to main content</a>
+  
+
+  <section
+class="usa-banner"
+aria-label="Official website of the United States government"
+>
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img
+            aria-hidden="true"
+            class="usa-banner__header-flag"
+            src="/assets/img/us_flag_small.png"
+            alt="U.S. flag"
+          />
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">
+            An official website of the United States government
+          </p>
+          <p class="usa-banner__header-action">Here’s how you know</p>
+        </div>
+        <button
+          type="button"
+          class="usa-accordion__button usa-banner__button"
+          aria-expanded="false"
+          aria-controls="gov-banner-default"
+        >
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div
+      class="usa-banner__content usa-accordion__content"
+      id="gov-banner-default" hidden=""
+    >
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img
+            class="usa-banner__icon usa-media-block__img"
+            src="/assets/img/icon-dot-gov.svg"
+            role="img"
+            alt="Dot gov"
+            aria-hidden="true"
+          />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong><br />A
+              <strong>.gov</strong> website belongs to an official government
+              organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img
+            class="usa-banner__icon usa-media-block__img"
+            src="/assets/img/icon-https.svg"
+            role="img"
+            alt="Https"
+            aria-hidden="true"
+          />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong><br />A
+              <strong>lock</strong> (
+              <span class="icon-lock"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="52"
+                  height="64"
+                  viewBox="0 0 52 64"
+                  class="usa-banner__lock-image"
+                  role="img"
+                  aria-labelledby="banner-lock-description-default"
+                  focusable="false"
+                >
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">Locked padlock icon</desc>
+                  <path
+                    fill="#000000"
+                    fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"
+                  />
+                </svg> </span
+              >) or <strong>https://</strong> means you’ve safely connected to
+              the .gov website. Share sensitive information only on official,
+              secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+
+
+
+  <button id="backtotop" title="Go to top" style="display: none">˄ Top</button>
+  <div class="usa-overlay"></div>
+</section>
+
+
+
+  
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+  <span><a href="/" onclick="return navigate(this)">
+    <img src="/assets/images/508-logo-starmark-250.png" alt="Section508.gov Home; GSA Starmark Flag logo with text: Section508.gov Buy. Build. Be Accessible."
+    class="logo" />
+</a></span>
+</div>
+
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav id="site-nav" role="navigation" class="usa-nav" aria-label="Primary Site Navigation">
+    <div class="usa-nav__inner">
+        <button class="usa-nav__close"><img alt="close" src="/assets/img/close.svg"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Policy &amp; Management primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/manage/"><span>Policy &amp; Management</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Acquisition primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/buy-sell/"><span>Acquisition</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Content Creation primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/create/"><span>Content Creation</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Design &amp; Develop primary navigation" class="usa-nav__link usa-current" onclick="return navigate(this)"
+            href="/develop/"><span>Design &amp; Develop</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Testing &amp; Remediation primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/test/"><span>Testing &amp; Remediation</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Training, Tools &amp; Events primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/training/"><span>Training, Tools &amp; Events</span></a>
+        </li>
+        
+        
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          
+          <li class="usa-nav__secondary-item display-flex flex-align-center">
+            <a href="/whats-new/" class="external-link" onclick="return navigate(this)">What&#39;s New!</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item display-flex flex-align-center">
+            <a href="/tools/program-manager-listing/" class="external-link" onclick="return navigate(this)">My Agency’s 508 PM</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item display-flex flex-align-center">
+            <a href="/content-library/" class="external-link" onclick="return navigate(this)">Content Library</a>
+          </li>
+          
+        </ul>
+        
+
+
+  
+    <form id="search_form" class="usa-search usa-search--small" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+  
+    
+  
+    <input name="utf8" type="hidden" value="&#x2713;" />
+    <input name="affiliate" type="hidden" value="gsa-section508-accessibility" />
+  
+    <div role="search">
+      <label class="usa-sr-only" for="extended-search-field-small">Search</label>
+      <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="search" name="query" autocomplete="off">
+      <button class="usa-button primary-background-color" type="submit"><img src="/assets/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" /></button>
+    </div>
+  </form>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+  
+
+<section aria-label="Page Banner" class="usa-graphic-list usa-section sml-margin bg-gradient landing-page-banner" >
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet: grid-col">
+                
+                <span class="banner-title-color font-sans-lg margin-bottom-0" >
+                    Design & Develop
+                </span>
+                <br />
+                
+                <h1 class="text-white font-sans-xl margin-top-0 margin-bottom-0">
+                    Applicability & Conformance Requirements
+                </h1>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div id="main-content" class="usa-layout-docs usa-section">
+
+  <div class="grid-container">
+
+    <div class="grid-row grid-gap">
+      
+      <aside id="sidenav" class="usa-layout-docs__sidenav desktop:grid-col-3 padding-bottom-4">
+    <nav id="sec-nav" aria-label="Secondary Navigation">
+        <ul class="usa-sidenav menu"><li class="usa-sidenav__item">
+                <a href="/develop/" >Design & Develop</a>
+            </li><li class="usa-sidenav__item list ">
+                <a href="javascript:void(0);" class="header-menu-text" aria-label="Design - Submenu" aria-expanded="false">Design</a>
+                <ul class="usa-sidenav__sublist items"><li class="usa-sidenav__item ">
+                        <a href="/develop/accessible-design-using-uswds/">Accessible Design Using the USWDS</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/fonts-typography/">Accessible Fonts and Typography</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/design/digital-content-users-with-cognitive-disabilities/">Designing Digital Content For Users With Cognitive Disabilities</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/guide-accessible-web-design-development/">Guide to Accessible Web Design & Development</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/mapping-wcag-to-fpc/">Mapping of WCAG 2.0 to Functional Performance Criteria</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/sample-personas/">Sample Personas for Users With Disabilities</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/universal-design/">Universal Design</a>
+                    </li></ul>
+            </li><li class="usa-sidenav__item list ">
+                <a href="javascript:void(0);" class="header-menu-text" aria-label="Develop - Submenu" aria-expanded="false">Develop</a>
+                <ul class="usa-sidenav__sublist items"><li class="usa-sidenav__item  active usa-current ">
+                        <a href="/develop/applicability-conformance/">Applicability and Conformance Requirements for Developers</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/usability-testing-with-people-with-disabilities/">Conducting User Research with People with Disabilities</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/recruitment-questionnaire-process/">Develop a User Research Recruitment Questionnaire</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/software-websites/">Develop Software and Websites</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/incorporating-accessibility-conformance/">Incorporating Accessibility Conformance Validation within Development</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/integrate-section-508-in-agile-sprint/">Integrating Section 508 Requirements into Each Agile Sprint</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/user-stories/">Sample User Stories for Accessible ICT</a>
+                    </li><li class="usa-sidenav__item list ">
+                            <a href="javascript:void(0);" aria-label="Low Code Authoring Environments - Submenu" aria-expanded="false">Low Code Authoring Environments</a>
+                         <ul class="usa-sidenav__sublist items"><li class="usa-sidenav__item ">
+                             <a href="/develop/low-code-authoring-basics/overview/">Overview of Authoring Basics for Low-Code Authoring Environments</a>
+                           </li><li class="usa-sidenav__item ">
+                             <a href="/develop/low-code-authoring-basics/common-accessibility-risks/">Common Accessibility Risks in Low-Code Platforms</a>
+                           </li><li class="usa-sidenav__item ">
+                             <a href="/develop/low-code-authoring-basics/core-principles-for-content-authors/">Core Accessibility Principles for Content Authors</a>
+                           </li><li class="usa-sidenav__item ">
+                             <a href="/develop/low-code-authoring-basics/accessibility-guidance-for-common-cms-platforms/">Accessibility Guidance for Common CMS Platforms</a>
+                           </li><li class="usa-sidenav__item ">
+                             <a href="/develop/low-code-authoring-basics/low-code-accessibility-checklist/">Accessibility Checklist for Content Authors in Low Code Environments</a>
+                           </li><li class="usa-sidenav__item ">
+                             <a href="/develop/low-code-authoring-basics/accessibility-review-and-approval-best-practices/">Accessibility Review and Approval Best Practices</a>
+                           </li></ul>
+                    </li><li class="usa-sidenav__item list ">
+                            <a href="javascript:void(0);" aria-label="Web Content - Submenu" aria-expanded="false">Web Content</a>
+                         <ul class="usa-sidenav__sublist items"><li class="usa-sidenav__item ">
+                             <a href="/develop/web-content/">Developing Accessible Web Content</a>
+                           </li><li class="usa-sidenav__item ">
+                             <a href="/develop/publish-to-web/">Publishing to the Web</a>
+                           </li></ul>
+                    </li></ul>
+            </li><li class="usa-sidenav__item list ">
+                <a href="javascript:void(0);" class="header-menu-text" aria-label="Product Lifecycle - Submenu" aria-expanded="false">Product Lifecycle</a>
+                <ul class="usa-sidenav__sublist items"><li class="usa-sidenav__item ">
+                        <a href="/develop/product-lifecycle-overview/">ICT Product Lifecycle Overview</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/agile-roles-section-508-task-matrix/">Agile Roles Section 508 Task Matrix</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/ba-section-508-task-matrix/">Business Analyst Section 508 Task Matrix</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/raci-matrix-for-ict-accessibility-product-lifecycle/">RACI Matrix for ICT Accessibility Integration Across the Product Lifecycle</a>
+                    </li><li class="usa-sidenav__item ">
+                        <a href="/develop/raci-matrix-for-section-508-in-sdlc/">RACI Matrix for Section 508 Accessibility Integration in the Software Development Lifecycle</a>
+                    </li></ul>
+            </li></ul>
+    </nav>
+</aside>
+
+
+      <main class="usa-layout-docs__main desktop:grid-col-9" id="content-section">
+        <div class="usa-graphic-list">
+            <h2 id="applicability">Applicability</h2>
+
+<p>The <a href="https://www.access-board.gov/ict/">Revised 508 Standards</a> incorporate by reference the WCAG 2.0 Level AA Success Criteria, and apply the WCAG 2.0 Level AA success criteria and conformance requirements to both web and non-web electronic content.</p>
+
+<p><a href="https://www.access-board.gov/ict/#E201-application">Chapter 2 of the Revised 508 Standards</a> specifies which electronic content must be accessible (scoping). Apply the technical requirements based on content type. The <a href="https://www.access-board.gov/ict/#E205-content">scoping requirements for electronic content (Section E205)</a> apply to non-web electronic documents regardless of format (e.g., Microsoft Office, Portable Document Format, and HTML Web pages). Other scoping provisions apply to non-web software (e.g., spreadsheet or video conferencing applications), and native mobile apps. There is no distinction between “web pages” and “non-web” content because the same accessibility needs exist for all electronic content.</p>
+
+<ul>
+  <li><a href="/buy/determine-508-standards-exceptions">Determine 508 Standards and Exceptions</a> - Learn how to apply the 508 Standards to your work</li>
+</ul>
+
+<p>The Revised 508 Standards include specific  <a href="https://www.access-board.gov/ict/#E204-functional-performance-criteria">requirements for authoring tools (see Section 504).</a> Authoring tools include not only word processors, but any tools used to develop web pages or applications, as well as the Integrated Development Environments (IDE) used by developers for software development.</p>
+
+<p>If your agency has never used the <a href="/test/web-software">harmonized test methods</a> published by the Federal CIO Council Accessibility Community of Practice (ACOP), you may have to significantly revise your policies and procedures to implement and verify conformance to the Revised 508 Standards. The transition will be easier for agencies already using these or similarly comprehensive test methods which already incorporate WCAG 2.0 Level AA. The revised standards also now clarify which electronic documents must conform to the new technical requirements.</p>
+
+<ul>
+  <li>Electronic documents must meet the W3C WCAG 2.0, Level A and AA guidelines (with four exceptions); see 36 CFR 1194  <a href="https://www.access-board.gov/ict/#E205-content">E205 electronic Content, and E205.4 Accessibility Standards</a></li>
+  <li>For web content, see <a href="https://www.access-board.gov/ict/#E205-content">E205, E205.2 and E205.3</a></li>
+  <li>For hardware, see <a href="https://www.access-board.gov/ict/#E206-hardware">E206</a> and <a href="http://www.access-board.gov/ict/#501-general">Chapter 5, 501</a></li>
+  <li>For software, see <a href="https://www.access-board.gov/ict/#E207-software">E207, E207.2 and E207.3</a></li>
+  <li>For authoring tools, see <a href="http://www.access-board.gov/ict/#504-authoring-tools">Chapter 5, 504</a></li>
+  <li>For functional performance criteria, see <a href="https://www.access-board.gov/ict/#E204-functional-performance-criteria">E204</a> and <a href="http://www.access-board.gov/ict/#301-general">Chapter 3, 301</a> and  <a href="https://www.access-board.gov/ict/#302-functional-performance-criteria">302</a></li>
+</ul>
+
+<p>Having trouble getting support for IT accessibility? Here are some ideas that may help:</p>
+
+<ul>
+  <li><a href="/manage/support-accessible-content">Build Support for Accessible Content</a></li>
+</ul>
+
+<h2 id="conformance-requirements">Conformance Requirements</h2>
+
+<p>As an author or developer, you should assess the extent to which your work conforms to WCAG 2.0 Level AA.</p>
+
+<ul>
+  <li>A page that fails to meet even one of the 38 applicable WCAG success criteria does not conform to the standards.</li>
+  <li>A set of pages in a sequence, e.g., identifying, selecting, and paying for a ticket to a public event, does not conform if any of those steps fails to conform fully.</li>
+</ul>
+
+<p>In some situations, you can comply with the Revised 508 Standards by providing a conforming alternate version of content. However, you should be aware that Sections <a href="https://www.access-board.gov/ict/#E101-general">E101.2</a>, <a href="https://www.access-board.gov/ict/#E205-content">E205</a> and <a href="https://www.access-board.gov/ict/#E207-software">E207</a> of the Revised 508 Standards impose significant constraints on this option.</p>
+
+<ul>
+  <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html">Understanding WCAG 2.0 Conformance</a> - Guidance from the W3C</li>
+</ul>
+
+
+            
+
+
+
+
+<div class="margin-y-105">   
+
+     
+<strong>Reviewed/Updated: </strong> July 2026
+
+</div>
+        </div>
+          
+      </main>
+      
+    </div>
+  </div>
+</div>
+
+  <footer class="usa-footer__primary-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap padding-bottom-4">
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Government-wide Initiatives</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="https://www.gsa.gov/policy-regulations/policy/information-technology-policy" target="_blank" onclick="return navigate(this)">Digital Strategy</a></li>
+          <li><a href="https://digital.gov/guides/plain-language" target="_blank" onclick="return navigate(this)">Plain Language</a></li>
+          <li><a href="https://designsystem.digital.gov/" target="_blank" onclick="return navigate(this)">U.S. Web Design System</a></li>
+        </ul>
+      </div>
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Organization</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="/about-us/" aria-label="About Us in Organization" onclick="return navigate(this)">About Us</a></li>
+          <li><a aria-label="Contact Us details" href="/contact-us/" onclick="return navigate(this)">Contact Us</a></li>
+          <li><a href="/contributors/" aria-label="Section508.gov site Contributors" onclick="return navigate(this)">Contributors</a></li>
+          <li><a href="/manage/join-the-508-community/" onclick="return navigate(this)">Join the Community (Listserv)</a></li>
+        </ul>
+      </div>
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Tools</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="/art/" aria-label="Accessibility Requirements Tool" target="_blank" onclick="return navigate(this)">ART</a></li>
+          <li><a href="https://acreditor.section508.gov/" aria-label="Accessibility Conformance Report Editor" target="_blank" onclick="return navigate(this)">ACR Editor</a></li>
+          <li><a href="/buy/solicitation-review-tool" aria-label="Solicitation Review Tool" target="_blank" onclick="return navigate(this)">SRT</a></li>
+          <li><a href="/tools/program-manager-listing/" onclick="return navigate(this)">Find Your Section 508 Program Manager</a></li>
+          <li><a href="/content-library/" onclick="return navigate(this)">Content Library</a></li>
+        </ul>
+      </div>
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Resources</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="/manage/playbooks/" onclick="return navigate(this)">Accessibility Playbooks</a></li>
+          <li><a href="/accessibility-conformance-reports/" onclick="return navigate(this)">ACR Library</a></li>
+          <li><a href="/tools/acronyms-abbreviations/" onclick="return navigate(this)">Acronyms & Abbreviations</a></li>
+          <li><a href="/tools/glossary/" onclick="return navigate(this)">Glossary of Terms</a></li>
+          <li><a href="/website-policies" onclick="return navigate(this)">Website Policies</a></li>          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="usa-identifier">
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="https://www.gsa.gov" class="usa-identifier__logo" onclick="return navigate(this)"><img class="usa-identifier__logo-img" alt="Seal of the General Services Administration" src="/assets/images/seals-logos/gsa-seal.png"/></a>
+      </div>
+      <div class="usa-identifier__identity">
+        <p class="usa-identifier__identity-domain">Section508.gov</p>
+        <p class="usa-identifier__identity-disclaimer">An official website of the <a href="https://www.gsa.gov/" onclick="return navigate(this)">General Services Administration</a></p>
+      </div>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links,,">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/about-gsa" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">About GSA</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/website-information/accessibility-statement" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Accessibility Statement</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">FOIA requests</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/reference/civil-rights-programs/the-no-fear-act" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">No FEAR Act data</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link" onclick="return navigate(this)" >Office of the Inspector General</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/about-gsa/newsroom/budget-and-performance" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Performance reports</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Privacy policy</a></li>
+        <li class="usa-identifier__required-links-item"><a href="/website-policies/#reuse-and-copyright" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Reuse and Copyright</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services,,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+      <a href="https://www.usa.gov/" class="usa-link" onclick="return navigate(this)">Visit USA.gov</a>
+    </div>
+  </section>
+</div>
+
+
+  <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+
+<script id="_fed_an_ua_tag"
+        src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
+
+
+
+
+<script src="/assets/js/uswds.min.js?1795003494555221387"></script>
+<script src="/assets/js/app.js?1795003494555221387"></script>
+<script src="/assets/js/append-urls.js?1795003494555221387"></script>
+
+
+
+
+<script>
+  $(document).ready(function(){
+    // Check if the user already dismissed alert banner
+    if (window.localStorage.getItem('dismiss_alert')) {
+        $('#alert_banner').hide();
+    }
+
+    $("#dismiss_alert").click(function(){
+        // Save on LocalStorage
+        window.localStorage.setItem('dismiss_alert', true);
+        $('#alert_banner').hide();
+    }); 
+  });
+</script>
+
+
+</body>
+
+</html>

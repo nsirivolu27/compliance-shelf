@@ -1,0 +1,186 @@
+{
+  "caseTitle": "VA regional services portal — accessibility and delivery evidence review",
+  "synthetic": true,
+  "banner": "SYNTHETIC DEMONSTRATION — NOT AN OFFICIAL AGENCY RECORD.",
+  "disclaimer": "Fictional procurement for an independent Build Challenge prototype. Not created, approved, purchased or endorsed by Accenture, VA, or any agency.",
+  "businessQuestion": "Does the supplied contract file contain adequate, current, traceable evidence for a reviewer to assess the stated delivery and accessibility expectations?",
+  "contract": {
+    "id": "SYN-VA-PORTAL-2026-001",
+    "orderingOffice": "Synthetic Regional Contracting Office 3 (fictional)",
+    "requiringOffice": "Synthetic Digital Services Branch (fictional)",
+    "vendor": "Larkspur Digital Services, LLC (fictional)"
+  },
+  "roles": [
+    {
+      "id": "SYN-CO-01",
+      "role": "Contracting Officer"
+    },
+    {
+      "id": "SYN-COR-02",
+      "role": "Contracting Officer's Representative"
+    },
+    {
+      "id": "SYN-AR-03",
+      "role": "Accessibility Reviewer"
+    },
+    {
+      "id": "SYN-VDL-04",
+      "role": "Vendor Delivery Lead"
+    },
+    {
+      "id": "SYN-RO-05",
+      "role": "Records Officer"
+    },
+    {
+      "id": "SYN-EVAL-06",
+      "role": "Independent Evaluator",
+      "team": "Synthetic Accessibility Test Unit"
+    }
+  ],
+  "product": {
+    "name": "Regional Services Portal",
+    "builds": [
+      {
+        "version": "v1.1",
+        "build": "SYN-BUILD-1.1.0",
+        "role": "evaluated"
+      },
+      {
+        "version": "v1.2",
+        "build": "SYN-BUILD-1.2.0",
+        "role": "delivered"
+      }
+    ]
+  },
+  "holds": [
+    {
+      "id": "SYN-HOLD-2026-07",
+      "series": "Release 1.2 delivery records (portal build, transmittal, acceptance file)"
+    }
+  ],
+  "recordSeries": [
+    "Release 1.2 delivery records (portal build, transmittal, acceptance file)",
+    "Release 1.1 test working files"
+  ],
+  "checks": [
+    "engagement",
+    "accessibility-conformance",
+    "delivery-traceability",
+    "acceptance-review",
+    "records-hold"
+  ],
+  "documents": [
+    {
+      "id": "SYN-VAP-DOC-00",
+      "version": "1.0",
+      "title": "Engagement brief",
+      "stage": "initial",
+      "check": "engagement"
+    },
+    {
+      "id": "SYN-VAP-DOC-01",
+      "version": "1.0",
+      "title": "Statement of work (fictional)",
+      "stage": "initial",
+      "check": "accessibility-conformance"
+    },
+    {
+      "id": "SYN-VAP-DOC-02",
+      "version": "1.0",
+      "title": "Deliverable register",
+      "stage": "initial",
+      "check": "delivery-traceability"
+    },
+    {
+      "id": "SYN-VAP-DOC-03",
+      "version": "1.0",
+      "title": "Vendor accessibility conformance declaration",
+      "stage": "initial",
+      "check": "accessibility-conformance"
+    },
+    {
+      "id": "SYN-VAP-DOC-04",
+      "version": "1.0",
+      "title": "Accessibility evaluation report",
+      "stage": "initial",
+      "check": "accessibility-conformance"
+    },
+    {
+      "id": "SYN-VAP-DOC-05",
+      "version": "1.0",
+      "title": "Delivery transmittal",
+      "stage": "initial",
+      "check": "delivery-traceability"
+    },
+    {
+      "id": "SYN-VAP-DOC-06",
+      "version": "1.0",
+      "title": "Acceptance-review memorandum",
+      "stage": "initial",
+      "check": "acceptance-review"
+    },
+    {
+      "id": "SYN-VAP-DOC-07",
+      "version": "1.0",
+      "title": "Records inventory and synthetic hold notice",
+      "stage": "initial",
+      "check": "records-hold"
+    },
+    {
+      "id": "SYN-VAP-DOC-08",
+      "version": "1.0",
+      "title": "Corrective-action plan",
+      "stage": "initial",
+      "check": "acceptance-review"
+    },
+    {
+      "id": "SYN-VAP-DOC-09",
+      "version": "1.0",
+      "title": "Remediation evidence addendum",
+      "stage": "remediation",
+      "check": "accessibility-conformance"
+    },
+    {
+      "id": "SYN-VAP-DOC-06",
+      "version": "2.0",
+      "title": "Revised acceptance-review memorandum",
+      "stage": "remediation",
+      "check": "acceptance-review"
+    },
+    {
+      "id": "SYN-VAP-DOC-09",
+      "version": "2.0",
+      "title": "Final keyboard retest",
+      "stage": "completion",
+      "check": "accessibility-conformance"
+    },
+    {
+      "id": "SYN-VAP-DOC-03",
+      "version": "2.0",
+      "title": "Corrected vendor declaration",
+      "stage": "completion",
+      "check": "accessibility-conformance"
+    },
+    {
+      "id": "SYN-VAP-DOC-02",
+      "version": "2.0",
+      "title": "Reconciled delivery register and replacement receipt",
+      "stage": "completion",
+      "check": "delivery-traceability"
+    },
+    {
+      "id": "SYN-VAP-DOC-06",
+      "version": "3.0",
+      "title": "Completed acceptance evidence review",
+      "stage": "completion",
+      "check": "acceptance-review"
+    },
+    {
+      "id": "SYN-VAP-DOC-10",
+      "version": "1.0",
+      "title": "Training review basis and records instructions",
+      "stage": "completion",
+      "check": "records-hold"
+    }
+  ]
+}

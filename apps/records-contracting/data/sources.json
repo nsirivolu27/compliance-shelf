@@ -1,0 +1,67 @@
+[
+  { "id": "far-4.803", "title": "FAR 4.803 - Contents of contract files", "url": "https://www.acquisition.gov/far/4.803", "checkedOn": "2026-11-15", "locator": "4.803(a)(1), (3), (7), (26), (31)", "scope": "Examples of file contents when applicable; not a universal mandatory checklist. Screen supplied evidence only.", "policyVersionId": "far-part-4@codified", "policyVersion": {"policyId": "far-part-4", "policyTitle": "FAR Part 4 - Administrative and information matters", "versionId": "far-part-4@codified", "label": "FAR Part 4 as codified", "agency": "Governmentwide", "scope": "FAR Part 4 as codified at 48 C.F.R. Chapter 1.", "provision": "FAR 4.803 (contents of contract files) and FAR 4.805 (storage, handling, and contract files)", "issuedOn": null, "publishedOn": null, "effectiveOn": null, "reviewStatus": "retrieved-not-reviewed", "applicabilityConditions": [], "unresolvedQuestions": ["For VA procurements, a class deviation effective 2025-11-03 directs the acquisition workforce to follow the RFO FAR Part 4 model deviation text instead of codified Part 4. Which text governs a given case must be decided by a qualified reviewer.", "The deviation memo does not mention section 4.803 by number, so it does not establish whether the file-content examples these checks cite still apply to VA procurements.", "Publication and effective dates of the codified text were not captured when this source was registered."], "deviatesFrom": [], "supersedes": []} },
+  { "id": "far-4.805", "title": "FAR 4.805 - Storage, handling, and contract files", "url": "https://www.acquisition.gov/far/4.805", "checkedOn": "2026-11-15", "locator": "Table 4-1(1) and (8); paragraphs (a)-(c)", "scope": "General contract-record retention example is six years after final payment. Other record classes, mixed files, holds, agency procedures, and deviations require separate assessment. Never infer final payment from award end date.", "policyVersionId": "far-part-4@codified" },
+  { "id": "va-6300", "title": "VA Enterprise Directive 6300 - Records and Information Management", "url": "https://department.va.gov/policies/policy/6300-va-enterprise-directive-records-and-information-management/", "checkedOn": "2026-11-15", "locator": "B.18; C.4.1-C.4.3; C.5.14", "scope": "Contractor-held VA records, procurement records obligations assessed individually, and retention of unscheduled records. This directive supports selecting VA for a joined records/contracting workflow.", "policyVersionId": "va-directive-6300@registered-2026-11-15", "policyVersion": {"policyId": "va-directive-6300", "policyTitle": "VA Enterprise Directive 6300 - Records and information management", "versionId": "va-directive-6300@registered-2026-11-15", "label": "Directive 6300 as retrieved on 2026-11-15", "agency": "Department of Veterans Affairs", "scope": "VA records and information management, including contractor-held VA records.", "provision": "B.18; C.4.1-C.4.3; C.5.14", "issuedOn": null, "publishedOn": null, "effectiveOn": null, "reviewStatus": "retrieved-not-reviewed", "applicabilityConditions": [], "unresolvedQuestions": ["Publication and effective dates were not captured when this source was registered.", "Whether the cited paragraphs apply to a given contract's records is assessed case by case."], "deviatesFrom": [], "supersedes": []} },
+  { "id": "va-rfo", "title": "VA RFO / VAAR deviations", "url": "https://department.va.gov/acquisition-and-logistics/vaar-rfo-deviations-2/", "checkedOn": "2026-11-15", "locator": "Part 804 and associated class deviation table", "scope": "The source lists Part 804 changes effective October 1, 2026. Contract-specific policy-version applicability must be confirmed; do not treat legacy FAR numbering as universally controlling.", "policyVersionId": "vaar@va-rfo-class-deviations-2026-10-01", "policyVersion": {"policyId": "vaar", "policyTitle": "VA Acquisition Regulation (VAAR)", "versionId": "vaar@va-rfo-class-deviations-2026-10-01", "label": "RFO VAAR class deviations effective 2026-10-01", "agency": "Department of Veterans Affairs", "scope": "All VA solicitations and contracts, as stated in Acquisition Flash 27-02. The notice lists all VAAR parts as impacted.", "provision": "Class deviations from the VAAR by part; Part 804 deviation issued 2026-09-21", "issuedOn": null, "publishedOn": "2026-10-01", "effectiveOn": "2026-10-01", "reviewStatus": "retrieved-not-reviewed", "applicabilityConditions": ["VA solicitation or contract."], "unresolvedQuestions": ["The notice directs the workforce to follow the class deviation text rather than the corresponding VAAR parts codified at 48 C.F.R. Chapter 8. Which parts bear on a given case has not been reviewed.", "The notice, as retrieved, states no transition rule for solicitations issued or contracts awarded before 2026-10-01.", "Issue dates differ by part, so no single issue date is recorded for this version."], "deviatesFrom": ["vaar@codified"], "supersedes": []} },
+  { "id": "va-far-part-4-deviation", "title": "VA class deviation from FAR Part 4 (memorandum)", "url": "https://department.va.gov/acquisition-and-logistics/wp-content/uploads/sites/58/2026/03/deviation-far-part-4.pdf", "checkedOn": "2026-11-17", "locator": "Memorandum dated 2025-10-03; summary of changes to Part 4", "scope": "Directs VA procurements to follow the RFO FAR Part 4 model deviation text. The memorandum says its list of changes is not exhaustive. Retrieving it is not a specialist review of how it applies to a case.", "policyVersionId": "far-part-4@va-class-deviation-2025-11-03", "policyVersion": {"policyId": "far-part-4", "policyTitle": "FAR Part 4 - Administrative and information matters", "versionId": "far-part-4@va-class-deviation-2025-11-03", "label": "VA class deviation from FAR Part 4 effective 2025-11-03", "agency": "Department of Veterans Affairs", "scope": "All VA procurements (memorandum); all VA solicitations and contracts (Acquisition Policy Flash 26-03).", "provision": "Class deviation from FAR Part 4; RFO FAR Part 4 model deviation text published at acquisition.gov/far-overhaul", "issuedOn": "2025-10-03", "publishedOn": "2026-03-04", "effectiveOn": "2025-11-03", "reviewStatus": "retrieved-not-reviewed", "applicabilityConditions": ["VA procurement.", "Remains in effect until rescinded or incorporated into the FAR, as stated in the memorandum."], "unresolvedQuestions": ["The memorandum says new sections 4.308 and 4.309 move and reorganize the content of sections 4.804 and 4.805. The retention example this prototype cites from 4.805 has not been checked against 4.309.", "The memorandum says section 4.101 significantly updates contract file requirements and that best practices move to non-regulatory guidance. It does not mention section 4.803 by number.", "The notice and memorandum, as retrieved, state no transition rule for solicitations issued or contracts awarded before 2025-11-03.", "The memorandum states that its list of changes is not exhaustive."], "deviatesFrom": ["far-part-4@codified"], "supersedes": []} },
+  { "id": "va-flash-26-03", "title": "VA Acquisition Policy Flash 26-03 - Class deviation from FAR Part 4", "url": "https://department.va.gov/acquisition-and-logistics/flash/flash-26-03/", "checkedOn": "2026-11-17", "locator": "Subject, effective date, and applicability lines", "scope": "Notice announcing the class deviation. It is a starting point; the linked memorandum holds the deviation.", "policyVersionId": "far-part-4@va-class-deviation-2025-11-03" },
+  { "id": "va-flash-27-02", "title": "VA Acquisition Flash 27-02 - RFO VAAR class deviations", "url": "https://department.va.gov/acquisition-and-logistics/flash/flash-27-02-2/", "checkedOn": "2026-11-17", "locator": "Subject, effective date, VAAR parts impacted, and applicability lines", "scope": "Notice announcing class deviations across the VAAR. It is a starting point; the linked deviations page holds the text by part.", "policyVersionId": "vaar@va-rfo-class-deviations-2026-10-01" },
+  { "id": "vaar-codified", "title": "VA Acquisition Regulation (VAAR) index", "url": "https://www.acquisition.gov/vaar", "checkedOn": "2026-11-17", "locator": "Index page; effective date line", "scope": "Index of the VAAR parts. The page says it is not an official version of the regulation and points to the eCFR for the current text.", "policyVersionId": "vaar@codified", "policyVersion": {"policyId": "vaar", "policyTitle": "VA Acquisition Regulation (VAAR)", "versionId": "vaar@codified", "label": "VAAR as published before the RFO class deviations", "agency": "Department of Veterans Affairs", "scope": "VAAR parts as published on acquisition.gov, which states an effective date of 2024-03-20.", "provision": "VAAR parts 801 through 873 as indexed", "issuedOn": null, "publishedOn": null, "effectiveOn": "2024-03-20", "reviewStatus": "retrieved-not-reviewed", "applicabilityConditions": [], "unresolvedQuestions": ["The index page is not the official version. The codified text and its currency should be confirmed on the eCFR."], "deviatesFrom": [], "supersedes": []} },
+  { "id": "usaspending", "title": "USAspending award search API", "url": "https://api.usaspending.gov/docs/endpoints", "checkedOn": "2026-11-15", "locator": "POST /api/v2/search/spending_by_award/", "scope": "Public award metadata. Does not provide complete internal contract files, final-payment evidence, records schedules, or proof of compliance." },
+{
+  "id": "benefits-ssa-disability",
+  "title": "SSA-16: Application for Disability Insurance Benefits",
+  "url": "https://www.ssa.gov/forms/ssa-16.html",
+  "checkedOn": "2026-11-19",
+  "locator": "Official form information page",
+  "scope": "SSA-16 supports applications for disability insurance benefits. Use SSA instructions to establish the applicable application and supporting documents."
+},
+{
+  "id": "benefits-ssa-ssi",
+  "title": "SSA-8000-BK: Application for Supplemental Security Income",
+  "url": "https://www.ssa.gov/forms/ssa-8000-bk.pdf",
+  "checkedOn": "2026-11-19",
+  "locator": "Form title and application assistance note, page 1",
+  "scope": "SSI application assistance and follow-up. SSA staff or application helpers complete SSA-8000-BK based on information provided. Use the SSI application guidance to choose the appropriate route."
+},
+{
+  "id": "benefits-ssa-retirement",
+  "title": "SSA-1: Application for Retirement Insurance Benefits",
+  "url": "https://www.ssa.gov/forms/ssa-1.html",
+  "checkedOn": "2026-11-19",
+  "locator": "Official form information page",
+  "scope": "Retirement application preparation using SSA-1 guidance. No retirement amount or recommended claiming age is calculated here."
+},
+{
+  "id": "benefits-ssa-survivors",
+  "title": "SSA-10: Application for Widow or Widower Insurance Benefits",
+  "url": "https://www.ssa.gov/forms/ssa-10.html",
+  "checkedOn": "2026-11-19",
+  "locator": "Official form information page",
+  "scope": "SSA-10 guidance covers widow, widower and surviving divorced spouse benefits. It is not the form for every survivor situation; children and other relationships need separate SSA guidance."
+},
+{
+  "id": "benefits-va-disability",
+  "title": "21-526EZ: Application for Disability Compensation and Related Compensation Benefits",
+  "url": "https://www.va.gov/forms/21-526ez/",
+  "checkedOn": "2026-11-19",
+  "locator": "Official form information page",
+  "scope": "Application for disability compensation and related benefits. This is not a request to review a prior claim decision. No service connection or disability rating is decided here."
+},
+{
+  "id": "benefits-va-pension",
+  "title": "21P-527EZ: Application for Veterans Pension",
+  "url": "https://www.va.gov/forms/21p-527ez/",
+  "checkedOn": "2026-11-19",
+  "locator": "Official form information page",
+  "scope": "Pension claim intake for wartime Veterans. Veterans Pension is distinct from Social Security retirement and military retired pay. Review current VA requirements; no income limits or payment amounts are calculated here."
+},
+{
+  "id": "benefits-va-survivors",
+  "title": "21P-534EZ: Application for D.I.C., Survivors Pension, and/or Accrued Benefits",
+  "url": "https://www.va.gov/forms/21p-534ez/",
+  "checkedOn": "2026-11-19",
+  "locator": "Official form information page",
+  "scope": "Intake for D.I.C., Survivors Pension and accrued benefits. These are distinct benefit paths. An authorized reviewer must establish which path and form apply; this worksheet makes no determination."
+}
+]

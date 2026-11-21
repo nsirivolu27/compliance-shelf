@@ -1,0 +1,14 @@
+node_modules/
+.local/
+dist/
+.env
+.env.*
+!.env.example
+research/preview/
+research/graphify-out/.*
+research/graphify-out/cache/
+research/corpus/.graphify*
+research/corpus/graphify-out/
+research/corpus/build-challenge.pdf
+*.tmp
+__pycache__/

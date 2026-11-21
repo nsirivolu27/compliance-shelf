@@ -1,0 +1,31 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtemp, readFile, writeFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { createStore } from '../src/store.mjs';
+const cases = JSON.parse(await readFile(new URL('../data/demo-cases.json', import.meta.url), 'utf8'));
+
+test('legacy data upgrades in memory and serial writes reject stale edits atomically', async t => {
+  const directory = await mkdtemp(join(tmpdir(), 'va-store-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const file = join(directory, 'workspace.json');
+  const legacy = { version: 1, cases, reviews: [], events: [] };
+  await writeFile(file, JSON.stringify(legacy));
+  const original = await readFile(file, 'utf8');
+  const store = await createStore(file, []);
+  assert.equal(await readFile(file, 'utf8'), original, 'startup must not overwrite legacy files');
+  assert.equal(store.read().cases[0].revision, 0);
+  const edit = title => store.mutate('context', cases[0].id, state => { state.cases[0].title = title; return state.cases[0]; }, { expectedRevision: 0 });
+  const results = await Promise.allSettled([edit('First edit'), edit('Stale edit')]);
+  assert.equal(results[0].status, 'fulfilled'); assert.equal(results[1].status, 'rejected');
+  assert.equal(results[1].reason.status, 409); assert.equal(results[1].reason.currentRevision, 1);
+  assert.equal(store.read().events.length, 1); assert.equal(store.read().cases[0].title, 'First edit');
+  results[0].value.title = 'Mutated response';
+  assert.equal(store.read().cases[0].title, 'First edit', 'returned results must not alias stored objects');
+  const after = await readFile(file, 'utf8');
+  await assert.rejects(store.mutate('failure', cases[0].id, state => { state.cases[0].title = 'Bad edit'; throw new Error('Failed validation'); }));
+  assert.equal(await readFile(file, 'utf8'), after); assert.equal(store.read().cases[0].title, 'First edit');
+  const restarted = await createStore(file, []);
+  assert.equal(restarted.read().cases[0].revision, 1);
+});

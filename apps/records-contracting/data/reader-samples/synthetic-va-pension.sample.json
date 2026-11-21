@@ -1,0 +1,215 @@
+{
+  "id": "synthetic-va-pension",
+  "title": "Synthetic Veterans Pension intake worksheet",
+  "service": "amazon-textract",
+  "source": "shape-sample",
+  "capturedAt": null,
+  "about": "Hand-authored synthetic worksheet in Textract output shape. Not an official form and not produced by the service. No real claimant information.",
+  "output": {
+    "DocumentMetadata": {
+      "Pages": 1
+    },
+    "Blocks": [
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "key-0",
+        "EntityTypes": [
+          "KEY"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "label-0"
+            ]
+          },
+          {
+            "Type": "VALUE",
+            "Ids": [
+              "value-0"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "label-0",
+        "Text": "Synthetic intake reference",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "value-0",
+        "EntityTypes": [
+          "VALUE"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "text-0"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "text-0",
+        "Text": "SYN-VA-PENSION-001",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "key-1",
+        "EntityTypes": [
+          "KEY"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "label-1"
+            ]
+          },
+          {
+            "Type": "VALUE",
+            "Ids": [
+              "value-1"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "label-1",
+        "Text": "Requested support",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "value-1",
+        "EntityTypes": [
+          "VALUE"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "text-1"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "text-1",
+        "Text": "Synthetic request for Veterans Pension",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "key-2",
+        "EntityTypes": [
+          "KEY"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "label-2"
+            ]
+          },
+          {
+            "Type": "VALUE",
+            "Ids": [
+              "value-2"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "label-2",
+        "Text": "Service and financial evidence reference",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "value-2",
+        "EntityTypes": [
+          "VALUE"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "text-2"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "text-2",
+        "Text": "SYN-REFERENCE-001 — a made-up supporting document",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "key-3",
+        "EntityTypes": [
+          "KEY"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "label-3"
+            ]
+          },
+          {
+            "Type": "VALUE",
+            "Ids": [
+              "value-3"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "label-3",
+        "Text": "Reviewer follow-up",
+        "Page": 1
+      },
+      {
+        "BlockType": "KEY_VALUE_SET",
+        "Id": "value-3",
+        "EntityTypes": [
+          "VALUE"
+        ],
+        "Page": 1,
+        "Relationships": [
+          {
+            "Type": "CHILD",
+            "Ids": [
+              "text-3"
+            ]
+          }
+        ]
+      },
+      {
+        "BlockType": "WORD",
+        "Id": "text-3",
+        "Text": "Reviewer must confirm the applicable form and outstanding documents.",
+        "Page": 1
+      }
+    ]
+  }
+}

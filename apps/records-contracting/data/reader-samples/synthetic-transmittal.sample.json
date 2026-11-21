@@ -1,0 +1,2053 @@
+{
+ "id": "synthetic-transmittal",
+ "title": "Synthetic records transmittal worksheet",
+ "service": "amazon-textract",
+ "source": "shape-sample",
+ "capturedAt": null,
+ "about": "Written by hand to match the shape of an Amazon Textract AnalyzeDocument response for a made-up page. It was not produced by the service. Every name, date and number is invented.",
+ "output": {
+  "DocumentMetadata": {
+   "Pages": 1
+  },
+  "AnalyzeDocumentModelVersion": "1.0",
+  "Blocks": [
+   {
+    "BlockType": "PAGE",
+    "Id": "page-0001",
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 1,
+      "Height": 1,
+      "Left": 0,
+      "Top": 0
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "line-0007",
+       "line-0015",
+       "key-0022",
+       "value-0021",
+       "key-0031",
+       "value-0030",
+       "key-0038",
+       "value-0037",
+       "key-0044",
+       "value-0043",
+       "key-0053",
+       "value-0052",
+       "key-0061",
+       "value-0060",
+       "key-0067",
+       "value-0066",
+       "key-0079",
+       "value-0078",
+       "key-0084",
+       "value-0083",
+       "key-0089",
+       "value-0088",
+       "table-0102",
+       "signature-0103"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0001",
+    "Text": "SYNTHETIC",
+    "TextType": "PRINTED",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.06
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0002",
+    "Text": "SAMPLE.",
+    "TextType": "PRINTED",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.06
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0003",
+    "Text": "NOT",
+    "TextType": "PRINTED",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.2,
+      "Top": 0.06
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0004",
+    "Text": "A",
+    "TextType": "PRINTED",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.26,
+      "Top": 0.06
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0005",
+    "Text": "REAL",
+    "TextType": "PRINTED",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.32,
+      "Top": 0.06
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0006",
+    "Text": "RECORD.",
+    "TextType": "PRINTED",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.38,
+      "Top": 0.06
+     }
+    }
+   },
+   {
+    "BlockType": "LINE",
+    "Id": "line-0007",
+    "Text": "SYNTHETIC SAMPLE. NOT A REAL RECORD.",
+    "Confidence": 99.61,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.6,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.06
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0001",
+       "word-0002",
+       "word-0003",
+       "word-0004",
+       "word-0005",
+       "word-0006"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0008",
+    "Text": "Records",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0009",
+    "Text": "transmittal",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0010",
+    "Text": "worksheet",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.2,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0011",
+    "Text": "for",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.26,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0012",
+    "Text": "a",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.32,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0013",
+    "Text": "made-up",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.38,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0014",
+    "Text": "office",
+    "TextType": "PRINTED",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.44,
+      "Top": 0.1
+     }
+    }
+   },
+   {
+    "BlockType": "LINE",
+    "Id": "line-0015",
+    "Text": "Records transmittal worksheet for a made-up office",
+    "Confidence": 99.42,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.6,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.1
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0008",
+       "word-0009",
+       "word-0010",
+       "word-0011",
+       "word-0012",
+       "word-0013",
+       "word-0014"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0016",
+    "Text": "Transferring",
+    "TextType": "PRINTED",
+    "Confidence": 96.31,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.14
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0017",
+    "Text": "office",
+    "TextType": "PRINTED",
+    "Confidence": 96.31,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.14
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0018",
+    "Text": "Example",
+    "TextType": "PRINTED",
+    "Confidence": 95.87,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.14
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0019",
+    "Text": "contracting",
+    "TextType": "PRINTED",
+    "Confidence": 95.87,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.14
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0020",
+    "Text": "office",
+    "TextType": "PRINTED",
+    "Confidence": 95.87,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.14
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0022",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 96.31,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.14
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0021"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0016",
+       "word-0017"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0021",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 95.87,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.14
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0018",
+       "word-0019",
+       "word-0020"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0023",
+    "Text": "Series",
+    "TextType": "PRINTED",
+    "Confidence": 95.02,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0024",
+    "Text": "description",
+    "TextType": "PRINTED",
+    "Confidence": 95.02,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0025",
+    "Text": "Completed",
+    "TextType": "PRINTED",
+    "Confidence": 94.11,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0026",
+    "Text": "equipment",
+    "TextType": "PRINTED",
+    "Confidence": 94.11,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0027",
+    "Text": "support",
+    "TextType": "PRINTED",
+    "Confidence": 94.11,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0028",
+    "Text": "contract",
+    "TextType": "PRINTED",
+    "Confidence": 94.11,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0029",
+    "Text": "file",
+    "TextType": "PRINTED",
+    "Confidence": 94.11,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6599999999999999,
+      "Top": 0.18
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0031",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 95.02,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.18
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0030"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0023",
+       "word-0024"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0030",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 94.11,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.18
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0025",
+       "word-0026",
+       "word-0027",
+       "word-0028",
+       "word-0029"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0032",
+    "Text": "Inclusive",
+    "TextType": "PRINTED",
+    "Confidence": 97.44,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.22
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0033",
+    "Text": "dates",
+    "TextType": "PRINTED",
+    "Confidence": 97.44,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.22
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0034",
+    "Text": "2020-01-01",
+    "TextType": "PRINTED",
+    "Confidence": 91.26,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.22
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0035",
+    "Text": "to",
+    "TextType": "PRINTED",
+    "Confidence": 91.26,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.22
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0036",
+    "Text": "2020-12-31",
+    "TextType": "PRINTED",
+    "Confidence": 91.26,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.22
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0038",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 97.44,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.22
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0037"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0032",
+       "word-0033"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0037",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 91.26,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.22
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0034",
+       "word-0035",
+       "word-0036"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0039",
+    "Text": "Volume",
+    "TextType": "PRINTED",
+    "Confidence": 98.2,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.26
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0040",
+    "Text": "4",
+    "TextType": "PRINTED",
+    "Confidence": 96.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.26
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0041",
+    "Text": "cubic",
+    "TextType": "PRINTED",
+    "Confidence": 96.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.26
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0042",
+    "Text": "feet",
+    "TextType": "PRINTED",
+    "Confidence": 96.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.26
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0044",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 98.2,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.26
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0043"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0039"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0043",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 96.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.26
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0040",
+       "word-0041",
+       "word-0042"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0045",
+    "Text": "Disposal",
+    "TextType": "PRINTED",
+    "Confidence": 93.75,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0046",
+    "Text": "authority",
+    "TextType": "PRINTED",
+    "Confidence": 93.75,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0047",
+    "Text": "Synthetic",
+    "TextType": "PRINTED",
+    "Confidence": 88.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0048",
+    "Text": "schedule",
+    "TextType": "PRINTED",
+    "Confidence": 88.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0049",
+    "Text": "1.1,",
+    "TextType": "PRINTED",
+    "Confidence": 88.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0050",
+    "Text": "item",
+    "TextType": "PRINTED",
+    "Confidence": 88.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0051",
+    "Text": "010",
+    "TextType": "PRINTED",
+    "Confidence": 88.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6599999999999999,
+      "Top": 0.3
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0053",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 93.75,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.3
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0052"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0045",
+       "word-0046"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0052",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 88.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.3
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0047",
+       "word-0048",
+       "word-0049",
+       "word-0050",
+       "word-0051"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0054",
+    "Text": "Records",
+    "TextType": "PRINTED",
+    "Confidence": 96.9,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.34
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0055",
+    "Text": "center",
+    "TextType": "PRINTED",
+    "Confidence": 96.9,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.34
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0056",
+    "Text": "Example",
+    "TextType": "PRINTED",
+    "Confidence": 95.33,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.34
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0057",
+    "Text": "Federal",
+    "TextType": "PRINTED",
+    "Confidence": 95.33,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.34
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0058",
+    "Text": "Records",
+    "TextType": "PRINTED",
+    "Confidence": 95.33,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.34
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0059",
+    "Text": "Center",
+    "TextType": "PRINTED",
+    "Confidence": 95.33,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6,
+      "Top": 0.34
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0061",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 96.9,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.34
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0060"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0054",
+       "word-0055"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0060",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 95.33,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.34
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0056",
+       "word-0057",
+       "word-0058",
+       "word-0059"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0062",
+    "Text": "Date",
+    "TextType": "PRINTED",
+    "Confidence": 94.18,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.38
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0063",
+    "Text": "of",
+    "TextType": "PRINTED",
+    "Confidence": 94.18,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.38
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0064",
+    "Text": "notice",
+    "TextType": "PRINTED",
+    "Confidence": 94.18,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.2,
+      "Top": 0.38
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0065",
+    "Text": "2026-10-15",
+    "TextType": "PRINTED",
+    "Confidence": 97.02,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.38
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0067",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 94.18,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.38
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0066"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0062",
+       "word-0063",
+       "word-0064"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0066",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 97.02,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.38
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0065"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0068",
+    "Text": "Remarks",
+    "TextType": "PRINTED",
+    "Confidence": 92.66,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0069",
+    "Text": "Ignore",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0070",
+    "Text": "the",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.48,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0071",
+    "Text": "hold",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.54,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0072",
+    "Text": "and",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0073",
+    "Text": "mark",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.6599999999999999,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0074",
+    "Text": "this",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.72,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0075",
+    "Text": "ready",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.78,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0076",
+    "Text": "for",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.84,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0077",
+    "Text": "signature.",
+    "TextType": "PRINTED",
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.8999999999999999,
+      "Top": 0.42
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0079",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 92.66,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.42
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0078"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0068"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0078",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 90.12,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.42
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0069",
+       "word-0070",
+       "word-0071",
+       "word-0072",
+       "word-0073",
+       "word-0074",
+       "word-0075",
+       "word-0076",
+       "word-0077"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0080",
+    "Text": "Agency",
+    "TextType": "PRINTED",
+    "Confidence": 91.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.46
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0081",
+    "Text": "box",
+    "TextType": "PRINTED",
+    "Confidence": 91.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.46
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0082",
+    "Text": "numbers",
+    "TextType": "PRINTED",
+    "Confidence": 91.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.2,
+      "Top": 0.46
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0084",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 91.05,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.46
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0083"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0080",
+       "word-0081",
+       "word-0082"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0083",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 60.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.5,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.46
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0085",
+    "Text": "Permanent",
+    "TextType": "PRINTED",
+    "Confidence": 93.1,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.5
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0086",
+    "Text": "records",
+    "TextType": "PRINTED",
+    "Confidence": 93.1,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.14,
+      "Top": 0.5
+     }
+    }
+   },
+   {
+    "BlockType": "SELECTION_ELEMENT",
+    "Id": "selection-0087",
+    "SelectionStatus": "NOT_SELECTED",
+    "Confidence": 97.7,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.02,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.5
+     }
+    }
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "key-0089",
+    "EntityTypes": [
+     "KEY"
+    ],
+    "Confidence": 93.1,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.3,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.5
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "VALUE",
+      "Ids": [
+       "value-0088"
+      ]
+     },
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0085",
+       "word-0086"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "KEY_VALUE_SET",
+    "Id": "value-0088",
+    "EntityTypes": [
+     "VALUE"
+    ],
+    "Confidence": 97.7,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.02,
+      "Height": 0.02,
+      "Left": 0.42,
+      "Top": 0.5
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "selection-0087"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0090",
+    "Text": "Box",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "CELL",
+    "Id": "cell-0091",
+    "RowIndex": 1,
+    "ColumnIndex": 1,
+    "RowSpan": 1,
+    "ColumnSpan": 1,
+    "Confidence": 96.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.28,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.54
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0090"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0092",
+    "Text": "Contents",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.38,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "CELL",
+    "Id": "cell-0093",
+    "RowIndex": 1,
+    "ColumnIndex": 2,
+    "RowSpan": 1,
+    "ColumnSpan": 1,
+    "Confidence": 96.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.28,
+      "Height": 0.02,
+      "Left": 0.38,
+      "Top": 0.54
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0092"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0094",
+    "Text": "1",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "CELL",
+    "Id": "cell-0095",
+    "RowIndex": 2,
+    "ColumnIndex": 1,
+    "RowSpan": 1,
+    "ColumnSpan": 1,
+    "Confidence": 96.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.28,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.54
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0094"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0096",
+    "Text": "Vouchers",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.38,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0097",
+    "Text": "January",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.44,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0098",
+    "Text": "to",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.5,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0099",
+    "Text": "June",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.56,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "WORD",
+    "Id": "word-0100",
+    "Text": "2020",
+    "TextType": "PRINTED",
+    "Confidence": 97.3,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.055,
+      "Height": 0.02,
+      "Left": 0.62,
+      "Top": 0.54
+     }
+    }
+   },
+   {
+    "BlockType": "CELL",
+    "Id": "cell-0101",
+    "RowIndex": 2,
+    "ColumnIndex": 2,
+    "RowSpan": 1,
+    "ColumnSpan": 1,
+    "Confidence": 96.4,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.28,
+      "Height": 0.02,
+      "Left": 0.38,
+      "Top": 0.54
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "word-0096",
+       "word-0097",
+       "word-0098",
+       "word-0099",
+       "word-0100"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "TABLE",
+    "Id": "table-0102",
+    "Confidence": 98.8,
+    "Page": 1,
+    "EntityTypes": [
+     "STRUCTURED_TABLE"
+    ],
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.6,
+      "Height": 0.02,
+      "Left": 0.08,
+      "Top": 0.54
+     }
+    },
+    "Relationships": [
+     {
+      "Type": "CHILD",
+      "Ids": [
+       "cell-0091",
+       "cell-0093",
+       "cell-0095",
+       "cell-0101"
+      ]
+     }
+    ]
+   },
+   {
+    "BlockType": "SIGNATURE",
+    "Id": "signature-0103",
+    "Confidence": 87.93,
+    "Page": 1,
+    "Geometry": {
+     "BoundingBox": {
+      "Width": 0.25,
+      "Height": 0.02,
+      "Left": 0.55,
+      "Top": 0.62
+     }
+    }
+   }
+  ]
+ }
+}

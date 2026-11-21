@@ -1,0 +1,36 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { once } from 'node:events';
+import { createApp } from '../src/server.mjs';
+
+test('evidence review persists, changes screening, and exports history', async t => {
+  const directory = await mkdtemp(join(tmpdir(), 'va-compliance-test-'));
+  const stateFile = join(directory, 'workspace.json');
+  const server = await createApp({ stateFile });
+  server.listen(0, '127.0.0.1'); await once(server, 'listening');
+  const base = `http://127.0.0.1:${server.address().port}`;
+  const path = '/api/cases/DEMO-VA-001';
+  t.after(async () => { await new Promise(r => server.close(r)); await rm(directory, { recursive: true, force: true }); });
+  const post = (path, body, headers = {}) => fetch(base + path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: JSON.stringify(body) });
+  const initial = await (await fetch(base + path + '/report')).json();
+  assert.equal(initial.findings.find(f => f.id.endsWith(':funding')).status, 'needs-evidence');
+  const addedResponse = await post(path + '/evidence', { kind: 'funding', title: 'Demo funds certification', locator: 'demo://funding-reference', verified: true });
+  assert.equal(addedResponse.status, 201);
+  const added = await addedResponse.json(); assert.equal(added.verified, false);
+  assert.equal((await post(path + '/verify-evidence', { evidenceId: added.id, note: 'Reviewed the synthetic reference.' })).status, 200);
+  const report = await (await post(path + '/analyze', {})).json();
+  assert.equal(report.findings.find(f => f.id.endsWith(':funding')).status, 'evidence-present');
+  assert.equal((await post(path + '/reviews', { findingId: 'DEMO-VA-001:funding', disposition: 'acknowledged', note: 'Acknowledged the evidence review.' })).status, 201);
+  const exported = await (await fetch(base + '/api/export')).json();
+  assert.equal(exported.events.length, 4); assert.equal(exported.reviews.length, 1);
+  const restarted = await createApp({ stateFile }); restarted.listen(0, '127.0.0.1'); await once(restarted, 'listening');
+  const persisted = await (await fetch(`http://127.0.0.1:${restarted.address().port}/api/workspace`)).json();
+  assert.equal(persisted.events.length, 4); await new Promise(r => restarted.close(r));
+  assert.equal((await post(path + '/evidence', { kind: 'bogus' })).status, 400);
+  assert.equal((await post(path + '/analyze', {}, { Origin: 'https://unrelated.example' })).status, 403);
+  assert.equal((await fetch(base + path + '/report?asOf=2026-02-30')).status, 400);
+  assert.equal((await fetch(base + '/api/cases/missing/report')).status, 404);
+});

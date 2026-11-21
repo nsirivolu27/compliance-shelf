@@ -1,0 +1,9 @@
+* text=auto
+*.sh text eol=lf
+*.mp4 binary
+*.png binary
+*.pdf binary
+
+# Preserve the byte hashes of synthetic document evidence and source snapshots.
+demo/agency-contract-review/text/*.md -text
+demo/agency-contract-review/sources/snapshots/* -text -diff

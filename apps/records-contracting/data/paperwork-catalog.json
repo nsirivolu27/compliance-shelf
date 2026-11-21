@@ -1,0 +1,624 @@
+{
+  "entries": [
+    {
+      "id": "PW-SF135",
+      "title": "Records Transmittal and Receipt",
+      "formNumber": "SF 135",
+      "family": "records-transfer",
+      "scope": "government-wide",
+      "preparedBy": "Office that holds the records",
+      "receivedBy": "Federal Records Center",
+      "cadence": "per-transfer",
+      "requiredFacts": [
+        { "key": "transferring-office", "label": "Transferring office", "from": "case" },
+        { "key": "series-title", "label": "Records series title", "from": "record" },
+        { "key": "inclusive-dates", "label": "Inclusive dates", "from": "manual" },
+        { "key": "volume", "label": "Volume", "from": "manual" },
+        { "key": "disposal-authority", "label": "Disposal authority citation", "from": "record" },
+        { "key": "receiving-center", "label": "Receiving records center", "from": "manual" },
+        { "key": "no-active-hold", "label": "No active hold on the records", "from": "hold" }
+      ],
+      "sourceUrl": "https://www.archives.gov/frc/forms/sf-135-intro",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "The office sends the form to the records center and waits for its answer before shipping. The signed copy comes back as the receipt. NARA notes that new analog transfers stopped after 2024-06-30 unless an exception applies. The fact list is this project's reading of the public instructions. Check it against the current form."
+    },
+    {
+      "id": "PW-NA13001",
+      "title": "Notice of Eligibility for Disposal",
+      "formNumber": "NA Form 13001",
+      "family": "records-disposal",
+      "scope": "government-wide",
+      "preparedBy": "Federal Records Center, which sends the notice",
+      "receivedBy": "Agency records officer, who reviews it and responds",
+      "cadence": "per-notice",
+      "requiredFacts": [
+        { "key": "accession-number", "label": "Accession number", "from": "manual" },
+        { "key": "notice-date", "label": "Date of the notice", "from": "manual", "type": "date" },
+        { "key": "disposal-date-on-notice", "label": "Disposal date shown on the notice", "from": "manual", "type": "date" },
+        { "key": "records-description", "label": "Records description", "from": "record" },
+        { "key": "no-active-hold", "label": "No active hold on the records", "from": "hold" },
+        { "key": "agency-response", "label": "Agency response recorded by a person", "from": "manual" }
+      ],
+      "sourceUrl": "https://www.archives.gov/frc/records-disposition",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "The records center sends the notice about 90 days before the scheduled date and does not destroy records without the agency's written answer. This system only tracks the notice and the facts a reviewer needs. It never produces an answer to the notice."
+    },
+    {
+      "id": "PW-NA13000",
+      "title": "Agency Review for Contingent Disposal",
+      "formNumber": "NA Form 13000",
+      "family": "records-disposal",
+      "scope": "government-wide",
+      "preparedBy": "Federal Records Center",
+      "receivedBy": "Agency records officer",
+      "cadence": "per-notice",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.archives.gov/frc/forms",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "The title was read on the forms page. The process behind it was not read."
+    },
+    {
+      "id": "PW-SF115",
+      "title": "Request for Records Disposition Authority",
+      "formNumber": "SF 115",
+      "family": "records-disposal",
+      "scope": "government-wide",
+      "preparedBy": "Agency records officer",
+      "receivedBy": "National Archives and Records Administration",
+      "cadence": "per-schedule",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.archives.gov/frc/forms/sf-135-intro",
+      "verification": "candidate",
+      "checkedOn": "2026-11-19",
+      "note": "The agency asks NARA to agree a records schedule. The form title was read on NARA pages. How requests are submitted today was not checked."
+    },
+    {
+      "id": "PW-SF258",
+      "title": "Agreement to Transfer Records to the National Archives of the United States",
+      "formNumber": "SF 258",
+      "family": "records-transfer",
+      "scope": "government-wide",
+      "preparedBy": "Agency records officer",
+      "receivedBy": "National Archives and Records Administration",
+      "cadence": "per-transfer",
+      "requiredFacts": [],
+      "sourceUrl": null,
+      "verification": "candidate",
+      "checkedOn": "2026-11-19",
+      "note": "Used for permanent records. The title was read in NARA documents. The current process was not checked."
+    },
+    {
+      "id": "PW-OF11",
+      "title": "Reference Request",
+      "formNumber": "OF 11",
+      "family": "records-transfer",
+      "scope": "government-wide",
+      "preparedBy": "Office that needs the records back",
+      "receivedBy": "Federal Records Center",
+      "cadence": "per-request",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.archives.gov/frc/forms",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "Asks a records center to retrieve records it holds for the agency."
+    },
+    {
+      "id": "PW-VA7468",
+      "title": "Request for Disposition of Records",
+      "formNumber": "VA Form 7468",
+      "family": "records-disposal",
+      "scope": "va",
+      "preparedBy": "VA office that holds the records",
+      "receivedBy": "VA records officer",
+      "cadence": "per-request",
+      "requiredFacts": [],
+      "sourceUrl": null,
+      "verification": "candidate",
+      "checkedOn": "2026-11-19",
+      "note": "The title was found only in an archived 2003 list of VHA publications. Whether the form is current, and how it is used, was not checked."
+    },
+    {
+      "id": "PW-VA0244",
+      "title": "Records Transmittal and Receipt (VA)",
+      "formNumber": "VA Form 0244",
+      "family": "records-transfer",
+      "scope": "va",
+      "preparedBy": "VA office that holds the records",
+      "receivedBy": "VA records center",
+      "cadence": "per-transfer",
+      "requiredFacts": [],
+      "sourceUrl": null,
+      "verification": "candidate",
+      "checkedOn": "2026-11-19",
+      "note": "Found only in a third party copy of a VA records center guide. Not read on a VA page."
+    },
+    {
+      "id": "PW-SAORM",
+      "title": "Senior Agency Official for Records Management annual report",
+      "formNumber": null,
+      "family": "records-reporting",
+      "scope": "government-wide",
+      "preparedBy": "Senior Agency Official for Records Management",
+      "receivedBy": "National Archives and Records Administration",
+      "cadence": "annual",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.archives.gov/records-mgmt/resources/reporting",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "One of three yearly submissions to NARA. The reporting window moves every year, so a person enters the due date."
+    },
+    {
+      "id": "PW-RMSA",
+      "title": "Records Management Self-Assessment",
+      "formNumber": null,
+      "family": "records-reporting",
+      "scope": "government-wide",
+      "preparedBy": "Agency records officer",
+      "receivedBy": "National Archives and Records Administration",
+      "cadence": "annual",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.archives.gov/records-mgmt/resources/reporting",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "Yearly survey about the agency's records program. The questions have not been mapped to anything in this system."
+    },
+    {
+      "id": "PW-FEREM",
+      "title": "Federal Electronic Records and Email Management report",
+      "formNumber": null,
+      "family": "records-reporting",
+      "scope": "government-wide",
+      "preparedBy": "Agency records officer",
+      "receivedBy": "National Archives and Records Administration",
+      "cadence": "annual",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.archives.gov/records-mgmt/resources/reporting",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "Yearly maturity model survey on electronic records and email."
+    },
+    {
+      "id": "PW-A50-CAP",
+      "title": "Corrective action plan entry",
+      "formNumber": null,
+      "family": "audit-follow-up",
+      "scope": "government-wide",
+      "preparedBy": "Office responsible for the audit recommendation",
+      "receivedBy": "Agency audit follow-up official and the audit team",
+      "cadence": "per-recommendation",
+      "requiredFacts": [
+        { "key": "report-reference", "label": "Report title and number", "from": "manual" },
+        { "key": "recommendation", "label": "Recommendation", "from": "manual" },
+        { "key": "management-decision-date", "label": "Management decision date", "from": "manual", "type": "date" },
+        { "key": "responsible-official", "label": "Responsible official", "from": "manual" },
+        { "key": "planned-completion-date", "label": "Planned completion date", "from": "manual", "type": "date" },
+        { "key": "completion-evidence", "label": "Evidence of completion", "from": "evidence" }
+      ],
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2024/11/M-25-01-Revised-Circular-A-50.pdf",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "OMB Circular A-50 was revised on 2024-11-07 under the title Audit, Inspection, or Evaluation Follow-Up. Only the transmittal was read. Timing rules inside the circular were not read, so this system shows no deadline of its own."
+    },
+    {
+      "id": "PW-FMFIA",
+      "title": "Annual assurance statement on internal control",
+      "formNumber": null,
+      "family": "internal-control",
+      "scope": "government-wide",
+      "preparedBy": "Agency head, supported by each office's control review",
+      "receivedBy": "The President and the Congress, through the agency financial report",
+      "cadence": "annual",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.opm.gov/about-us/2024-agency-financial-report/management-s-discussion-and-analysis-section-1/analysis-of-systems-controls-and-legal-compliance/",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "Required each year under FMFIA, with OMB Circular A-123 as the guidance. A 2026 edition of A-123 exists and was not read in full. Read it before quoting any section."
+    },
+    {
+      "id": "PW-SSA-AFR",
+      "title": "SSA Agency Financial Report: management assurances and audit summary",
+      "formNumber": null,
+      "family": "internal-control",
+      "scope": "ssa",
+      "preparedBy": "Social Security Administration",
+      "receivedBy": "Published with the agency financial report",
+      "cadence": "annual",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.ssa.gov/finance/2025/Other%20Information.pdf",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "The FY 2025 report carries a Management Assurances section and a Summary of Financial Statement Audit and Management Assurances."
+    },
+    {
+      "id": "PW-VA-AFR",
+      "title": "VA Agency Financial Report: assurance sections",
+      "formNumber": null,
+      "family": "internal-control",
+      "scope": "va",
+      "preparedBy": "Department of Veterans Affairs",
+      "receivedBy": "Published with the agency financial report",
+      "cadence": "annual",
+      "requiredFacts": [],
+      "sourceUrl": null,
+      "verification": "candidate",
+      "checkedOn": "2026-11-19",
+      "note": "Listed as the VA counterpart of the SSA entry. The VA report was not read."
+    },
+    {
+      "id": "PW-PIA",
+      "title": "Privacy impact assessment",
+      "formNumber": null,
+      "family": "privacy",
+      "scope": "government-wide",
+      "preparedBy": "System owner with the agency privacy office",
+      "receivedBy": "Senior agency official for privacy",
+      "cadence": "per-system",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.justice.gov/opcl/page/file/1131721/download",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "Section 208 of the E-Government Act asks for one when a system that handles identifiable information is new or changes. OMB M-03-22 is the guidance."
+    },
+    {
+      "id": "PW-SORN",
+      "title": "System of records notice",
+      "formNumber": null,
+      "family": "privacy",
+      "scope": "government-wide",
+      "preparedBy": "Agency privacy office",
+      "receivedBy": "Published in the Federal Register",
+      "cadence": "per-system",
+      "requiredFacts": [],
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A108/omb_circular_a_108_12_12_16.pdf",
+      "verification": "seen",
+      "checkedOn": "2026-11-19",
+      "note": "Published under the Privacy Act. OMB Circular A-108 covers publication and reporting."
+    },
+{
+  "id": "PW-SSA-DISABILITY",
+  "title": "Application for Disability Insurance Benefits",
+  "formNumber": "SSA-16",
+  "family": "benefits-intake",
+  "scope": "ssa",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Social Security Administration",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Work history reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.ssa.gov/forms/ssa-16.html",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "ssa-disability",
+    "program": "Social Security disability",
+    "team": "Disability intake team",
+    "purpose": "SSA-16 supports applications for disability insurance benefits. Use SSA instructions to establish the applicable application and supporting documents.",
+    "sourceId": "benefits-ssa-disability",
+    "sampleId": "synthetic-ssa-disability",
+    "guidanceUrl": "https://www.ssa.gov/forms/ssa-16.html"
+  }
+},
+{
+  "id": "PW-SSA-SSI",
+  "title": "Application for Supplemental Security Income",
+  "formNumber": "SSA-8000-BK",
+  "family": "benefits-intake",
+  "scope": "ssa",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Social Security Administration",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Income and resources reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.ssa.gov/forms/ssa-8000-bk.pdf",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "ssa-ssi",
+    "program": "Supplemental Security Income (SSI)",
+    "team": "Income support intake team",
+    "purpose": "SSI application assistance and follow-up. SSA staff or application helpers complete SSA-8000-BK based on information provided. Use the SSI application guidance to choose the appropriate route.",
+    "sourceId": "benefits-ssa-ssi",
+    "sampleId": "synthetic-ssa-ssi",
+    "guidanceUrl": "https://www.ssa.gov/ssi/text-apply-ussi.htm"
+  }
+},
+{
+  "id": "PW-SSA-RETIREMENT",
+  "title": "Application for Retirement Insurance Benefits",
+  "formNumber": "SSA-1",
+  "family": "benefits-intake",
+  "scope": "ssa",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Social Security Administration",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Earnings history reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.ssa.gov/forms/ssa-1.html",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "ssa-retirement",
+    "program": "Social Security retirement",
+    "team": "Retirement intake team",
+    "purpose": "Retirement application preparation using SSA-1 guidance. No retirement amount or recommended claiming age is calculated here.",
+    "sourceId": "benefits-ssa-retirement",
+    "sampleId": "synthetic-ssa-retirement",
+    "guidanceUrl": "https://www.ssa.gov/forms/ssa-1.html"
+  }
+},
+{
+  "id": "PW-SSA-SURVIVORS",
+  "title": "Application for Widow or Widower Insurance Benefits",
+  "formNumber": "SSA-10",
+  "family": "benefits-intake",
+  "scope": "ssa",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Social Security Administration",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Relationship and death record reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.ssa.gov/forms/ssa-10.html",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "ssa-survivors",
+    "program": "Social Security spouse survivor benefits",
+    "team": "Survivor support intake team",
+    "purpose": "SSA-10 guidance covers widow, widower and surviving divorced spouse benefits. It is not the form for every survivor situation; children and other relationships need separate SSA guidance.",
+    "sourceId": "benefits-ssa-survivors",
+    "sampleId": "synthetic-ssa-survivors",
+    "guidanceUrl": "https://www.ssa.gov/forms/ssa-10.html"
+  }
+},
+{
+  "id": "PW-VA-DISABILITY",
+  "title": "Application for Disability Compensation and Related Compensation Benefits",
+  "formNumber": "21-526EZ",
+  "family": "benefits-intake",
+  "scope": "va",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Department of Veterans Affairs",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Service and supporting evidence reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.va.gov/forms/21-526ez/",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "va-disability",
+    "program": "VA disability compensation",
+    "team": "Compensation intake team",
+    "purpose": "Application for disability compensation and related benefits. This is not a request to review a prior claim decision. No service connection or disability rating is decided here.",
+    "sourceId": "benefits-va-disability",
+    "sampleId": "synthetic-va-disability",
+    "guidanceUrl": "https://www.va.gov/forms/21-526ez/"
+  }
+},
+{
+  "id": "PW-VA-PENSION",
+  "title": "Application for Veterans Pension",
+  "formNumber": "21P-527EZ",
+  "family": "benefits-intake",
+  "scope": "va",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Department of Veterans Affairs",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Service and financial evidence reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.va.gov/forms/21p-527ez/",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "va-pension",
+    "program": "Veterans Pension",
+    "team": "Pension intake team",
+    "purpose": "Pension claim intake for wartime Veterans. Veterans Pension is distinct from Social Security retirement and military retired pay. Review current VA requirements; no income limits or payment amounts are calculated here.",
+    "sourceId": "benefits-va-pension",
+    "sampleId": "synthetic-va-pension",
+    "guidanceUrl": "https://www.va.gov/forms/21p-527ez/"
+  }
+},
+{
+  "id": "PW-VA-SURVIVORS",
+  "title": "Application for D.I.C., Survivors Pension, and/or Accrued Benefits",
+  "formNumber": "21P-534EZ",
+  "family": "benefits-intake",
+  "scope": "va",
+  "preparedBy": "Applicant with assistance as appropriate; simulated intake in this prototype",
+  "receivedBy": "Department of Veterans Affairs",
+  "cadence": "per-claim",
+  "requiredFacts": [
+    {
+      "key": "intake-reference",
+      "label": "Synthetic intake reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "requested-support",
+      "label": "Requested support",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "supporting-reference",
+      "label": "Relationship and service record reference",
+      "from": "manual",
+      "type": "text"
+    },
+    {
+      "key": "review-follow-up",
+      "label": "Reviewer follow-up",
+      "from": "manual",
+      "type": "text"
+    }
+  ],
+  "sourceUrl": "https://www.va.gov/forms/21p-534ez/",
+  "verification": "seen",
+  "checkedOn": "2026-11-19",
+  "note": "Example intake worksheet, not the official application. The four facts are project-defined routing and follow-up fields, not all fields required by the agency. Facts present does not mean eligible, application complete, or funding available. Synthetic references only.",
+  "benefit": {
+    "programId": "va-survivors",
+    "program": "VA survivor benefits",
+    "team": "Survivor support intake team",
+    "purpose": "Intake for D.I.C., Survivors Pension and accrued benefits. These are distinct benefit paths. An authorized reviewer must establish which path and form apply; this worksheet makes no determination.",
+    "sourceId": "benefits-va-survivors",
+    "sampleId": "synthetic-va-survivors",
+    "guidanceUrl": "https://www.va.gov/forms/21p-534ez/"
+  }
+}
+]
+}

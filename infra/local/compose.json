@@ -1,0 +1,365 @@
+{
+  "name": "compliance-platform",
+  "services": {
+    "workflow": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "workflow",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324",
+        "WORKSPACE_FILE": "/state/workspace.json"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "volumes": [
+        "workflow_data:/state"
+      ]
+    },
+    "jobs": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "jobs",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "volumes": [
+        "jobs_data:/state"
+      ]
+    },
+    "documents": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "documents",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "volumes": [
+        "documents_data:/state"
+      ],
+      "depends_on": {
+        "workflow": {
+          "condition": "service_healthy"
+        },
+        "jobs": {
+          "condition": "service_healthy"
+        }
+      }
+    },
+    "policies": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "policies",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true
+    },
+    "audit": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "audit",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "depends_on": {
+        "workflow": {
+          "condition": "service_healthy"
+        }
+      }
+    },
+    "agent": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "agent",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "depends_on": {
+        "workflow": {
+          "condition": "service_healthy"
+        }
+      }
+    },
+    "worker": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "worker",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "depends_on": {
+        "documents": {
+          "condition": "service_healthy"
+        },
+        "jobs": {
+          "condition": "service_healthy"
+        }
+      }
+    },
+    "gateway": {
+      "build": {
+        "context": "../..",
+        "dockerfile": "infra/local/Dockerfile"
+      },
+      "image": "compliance-platform-services:local",
+      "environment": {
+        "SERVICE_NAME": "gateway",
+        "SERVICE_HOST": "0.0.0.0",
+        "SERVICE_TOKEN_FILE": "/run/secrets/platform_token",
+        "PLATFORM_DATA_DIR": "/state",
+        "WORKFLOW_URL": "http://workflow:4318",
+        "JOBS_URL": "http://jobs:4320",
+        "DOCUMENTS_URL": "http://documents:4319",
+        "POLICIES_URL": "http://policies:4321",
+        "AUDIT_URL": "http://audit:4322",
+        "AGENT_URL": "http://agent:4323",
+        "WORKER_URL": "http://worker:4324"
+      },
+      "secrets": [
+        "platform_token"
+      ],
+      "restart": "unless-stopped",
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "node",
+          "services/healthcheck.mjs"
+        ],
+        "interval": "5s",
+        "timeout": "3s",
+        "retries": 10,
+        "start_period": "5s"
+      },
+      "init": true,
+      "depends_on": {
+        "workflow": {
+          "condition": "service_healthy"
+        },
+        "jobs": {
+          "condition": "service_healthy"
+        },
+        "documents": {
+          "condition": "service_healthy"
+        },
+        "policies": {
+          "condition": "service_healthy"
+        },
+        "audit": {
+          "condition": "service_healthy"
+        },
+        "agent": {
+          "condition": "service_healthy"
+        },
+        "worker": {
+          "condition": "service_healthy"
+        }
+      },
+      "ports": [
+        "127.0.0.1:4317:4317"
+      ]
+    }
+  },
+  "secrets": {
+    "platform_token": {
+      "file": "../../.local/services/service-token"
+    }
+  },
+  "volumes": {
+    "workflow_data": {},
+    "documents_data": {},
+    "jobs_data": {}
+  }
+}

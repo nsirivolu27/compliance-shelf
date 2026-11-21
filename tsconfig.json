@@ -1,0 +1,3 @@
+{
+  "extends": "./apps/records-contracting/tsconfig.json"
+}

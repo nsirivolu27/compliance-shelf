@@ -1,0 +1,417 @@
+{
+  "pack": "agency-contract-review",
+  "caseTitle": "VA regional services portal — accessibility and delivery evidence review",
+  "contractId": "SYN-VA-PORTAL-2026-001",
+  "synthetic": true,
+  "banner": "SYNTHETIC DEMONSTRATION — NOT AN OFFICIAL AGENCY RECORD.",
+  "hashAlgorithm": "sha256",
+  "hashingNote": "Companions are hashed exactly as saved, UTF-8 with LF line endings. The platform normalizes CRLF to LF before hashing, so these values match the platform after normalization.",
+  "citationSource": "companion",
+  "documents": [
+    {
+      "documentId": "SYN-VAP-DOC-00",
+      "version": "1.0",
+      "title": "Engagement brief",
+      "stage": "initial",
+      "authorRole": "Review engagement team",
+      "date": "2026-10-14",
+      "relationship": null,
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-00_v1.0.pdf",
+          "sha256": "2993d28d447306f50aeba97b3a35ea0f6ff36d4c0e8f49e1e4aa414f55f75197",
+          "bytes": 176960,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-00_v1.0.md",
+          "sha256": "595f43fde8f6518bc6f2f493e26644aaa09ac213bb43288ec06cb60ecd729568",
+          "bytes": 7197,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-01",
+      "version": "1.0",
+      "title": "Statement of work (fictional)",
+      "stage": "initial",
+      "authorRole": "SYN-CO-01",
+      "date": "2026-06-01",
+      "relationship": null,
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-01_v1.0.pdf",
+          "sha256": "3628d5d1a4a15e29edd10998f92c1bab754fada79f947f76ebe0142e27c5fb96",
+          "bytes": 147696,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-01_v1.0.md",
+          "sha256": "16816eb3cc4ee8a62648fefe1330cd0583830698bb075d0626cfa4d4cc40fcf9",
+          "bytes": 5984,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-02",
+      "version": "1.0",
+      "title": "Deliverable register",
+      "stage": "initial",
+      "authorRole": "SYN-COR-02",
+      "date": "2026-10-06",
+      "relationship": {
+        "type": "implements",
+        "target": "SYN-VAP-DOC-01 v1.0"
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-02_v1.0.pdf",
+          "sha256": "2dbbac3a0cca6b461c5e8e2ae98ef9aec2548c2067a197dc0703d5ef54c3dcbe",
+          "bytes": 144117,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-02_v1.0.md",
+          "sha256": "45a2b1faab803f20947a95fff3b37e4c713294a3f652b41a6a9686b3fdc0eed3",
+          "bytes": 3506,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-03",
+      "version": "1.0",
+      "title": "Vendor accessibility conformance declaration",
+      "stage": "initial",
+      "authorRole": "SYN-VDL-04",
+      "date": "2026-09-29",
+      "relationship": {
+        "type": "responds-to",
+        "target": "SYN-VAP-DOC-01 v1.0",
+        "note": "deliverable D-02"
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-03_v1.0.pdf",
+          "sha256": "813a539b05acfd2469e3e79a7338bdb60bae11fd94cabf112067f3422c4d7d43",
+          "bytes": 132600,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-03_v1.0.md",
+          "sha256": "507260dc1d1756593e2037eb2803726b3a0e46fabf1fed23c571cf1a69f2c15c",
+          "bytes": 3269,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-04",
+      "version": "1.0",
+      "title": "Accessibility evaluation report",
+      "stage": "initial",
+      "authorRole": "SYN-EVAL-06",
+      "date": "2026-09-15",
+      "relationship": null,
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-04_v1.0.pdf",
+          "sha256": "41aaed5e3c01702a7191a86461bdd33ca24310779211c449511f79992bccc736",
+          "bytes": 147457,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-04_v1.0.md",
+          "sha256": "6bce45bb655c9f84ccc345c0a64986d636933d5302c995c17015ea206445c80a",
+          "bytes": 4390,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-05",
+      "version": "1.0",
+      "title": "Delivery transmittal",
+      "stage": "initial",
+      "authorRole": "SYN-VDL-04",
+      "date": "2026-09-30",
+      "relationship": {
+        "type": "encloses",
+        "target": "SYN-VAP-DOC-03 v1.0"
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-05_v1.0.pdf",
+          "sha256": "1abd7d964b521b2d4ed8ebb40d4687a59dbf6964de1aecd7d60d18bda8bab5cb",
+          "bytes": 126981,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-05_v1.0.md",
+          "sha256": "5303b235e20e22682d6469980b01ae7e90f694dfc9d2125d56ffaa07958150ba",
+          "bytes": 2774,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-06",
+      "version": "1.0",
+      "title": "Acceptance-review memorandum",
+      "stage": "initial",
+      "authorRole": "SYN-COR-02",
+      "date": "2026-10-07",
+      "relationship": null,
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-06_v1.0.pdf",
+          "sha256": "a0cf8d698e3732f77daabbe889bef6155098a81e3b32e7a3d5d109f6292753ad",
+          "bytes": 141464,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-06_v1.0.md",
+          "sha256": "57c02d4c700c5ae91ec826af48ba542ea096106755437a178cbc46b193029ff0",
+          "bytes": 3627,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-07",
+      "version": "1.0",
+      "title": "Records inventory and synthetic hold notice",
+      "stage": "initial",
+      "authorRole": "SYN-RO-05",
+      "date": "2026-10-02",
+      "relationship": null,
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-07_v1.0.pdf",
+          "sha256": "0007b1aa30e5012921009b15f034d051ae3931de04c28a38a9cc1cbf462b536f",
+          "bytes": 123367,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-07_v1.0.md",
+          "sha256": "4806021695c63d64f420146fad52d216507c29632f24cc3c94879bcd18a3edc7",
+          "bytes": 2975,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-08",
+      "version": "1.0",
+      "title": "Corrective-action plan",
+      "stage": "initial",
+      "authorRole": "SYN-CO-01",
+      "date": "2026-10-09",
+      "relationship": {
+        "type": "responds-to",
+        "target": "SYN-VAP-DOC-06 v1.0"
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-08_v1.0.pdf",
+          "sha256": "d0af34eac2a05501d79e3c994012b9a4dbe6b9918f5adc1123f25cb650f9abd0",
+          "bytes": 117656,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-08_v1.0.md",
+          "sha256": "2be01331b42e513032d7dfc7001a7e6d310e7792cf7806d0a3463f4a68d42a2a",
+          "bytes": 2324,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-09",
+      "version": "1.0",
+      "title": "Remediation evidence addendum",
+      "stage": "remediation",
+      "authorRole": "SYN-EVAL-06",
+      "date": "2026-10-28",
+      "relationship": {
+        "type": "supplements",
+        "target": "SYN-VAP-DOC-04 v1.0",
+        "note": "earlier evaluation retained; not replaced"
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-09_v1.0.pdf",
+          "sha256": "ae724d55da61244c688512171e611fd78edd6399ec83afcfd84764f771db1f69",
+          "bytes": 132825,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-09_v1.0.md",
+          "sha256": "a69035be190dbe5834b4a7f6d38e159d2003a197a642e8de676b45b771d3546f",
+          "bytes": 3494,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-06",
+      "version": "2.0",
+      "title": "Revised acceptance-review memorandum",
+      "stage": "remediation",
+      "authorRole": "SYN-COR-02",
+      "date": "2026-11-03",
+      "relationship": {
+        "type": "supersedes-for-review",
+        "target": "SYN-VAP-DOC-06 v1.0",
+        "note": "earlier version retained"
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-06_v2.0.pdf",
+          "sha256": "383f388eab081820ded9713f3073c9bd9efc2d268581c833fe83fb5933abc8f4",
+          "bytes": 132275,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-06_v2.0.md",
+          "sha256": "52c90d946d61e17d4e493ca46d596297b64380eb19069d0d8347c0df333e75c3",
+          "bytes": 3286,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-09",
+      "version": "2.0",
+      "title": "Final keyboard retest",
+      "stage": "completion",
+      "authorRole": "SYN-EVAL-06",
+      "date": "2026-11-20",
+      "relationship": {
+        "type": "supplements",
+        "note": "Earlier versions remain historical evidence."
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-09_v2.0.pdf",
+          "sha256": "613f8c0708127221bde40a1644cb1e6a9495488ca080cb2dba91954dc58673af",
+          "bytes": 24013,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-09_v2.0.md",
+          "sha256": "1827320f99831af2cfc1c657a57b583d02975c395a38f09edc30332710159b01",
+          "bytes": 1634,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-03",
+      "version": "2.0",
+      "title": "Corrected vendor declaration",
+      "stage": "completion",
+      "authorRole": "SYN-VDL-04",
+      "date": "2026-11-20",
+      "relationship": {
+        "type": "supplements",
+        "note": "Earlier versions remain historical evidence."
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-03_v2.0.pdf",
+          "sha256": "71d53fd12244e9eeb6840e850d18d695b41d46561dd0d628b9a219ceda826377",
+          "bytes": 23624,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-03_v2.0.md",
+          "sha256": "f97640f88e355b0741b58dab6cdd02ae2b485a93f1abdf930ce50c096c98ba1a",
+          "bytes": 1126,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-02",
+      "version": "2.0",
+      "title": "Reconciled delivery register and replacement receipt",
+      "stage": "completion",
+      "authorRole": "SYN-COR-02",
+      "date": "2026-11-20",
+      "relationship": {
+        "type": "supplements",
+        "note": "Earlier versions remain historical evidence."
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-02_v2.0.pdf",
+          "sha256": "ae8a07402f2da8e7836451d35f1cc93a3eb1a0e5f2ea869277a4374ad5da3453",
+          "bytes": 23675,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-02_v2.0.md",
+          "sha256": "b0c788faf55cab981ef24df248ab5d32c827c5d1c03bb07723967ecc89e477a3",
+          "bytes": 1203,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-06",
+      "version": "3.0",
+      "title": "Completed acceptance evidence review",
+      "stage": "completion",
+      "authorRole": "SYN-COR-02",
+      "date": "2026-11-20",
+      "relationship": {
+        "type": "supplements",
+        "note": "Earlier versions remain historical evidence."
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-06_v3.0.pdf",
+          "sha256": "b63012a021272c2c39f64c22f282465e16db9c113b804aad63383d30eff70a9c",
+          "bytes": 24015,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-06_v3.0.md",
+          "sha256": "5f47abd89831a869ba4b9d7f156f0b704fdc8f0c34ec4de02e6a63ffea77e3e4",
+          "bytes": 1709,
+          "mediaType": "text/markdown"
+        }
+      }
+    },
+    {
+      "documentId": "SYN-VAP-DOC-10",
+      "version": "1.0",
+      "title": "Training review basis and records instructions",
+      "stage": "completion",
+      "authorRole": "SYN-RO-05",
+      "date": "2026-11-20",
+      "relationship": {
+        "type": "supplements",
+        "note": "Earlier versions remain historical evidence."
+      },
+      "files": {
+        "original": {
+          "path": "originals/SYN-VAP-DOC-10_v1.0.pdf",
+          "sha256": "6c78c5ccd2b3f1c0057109679e4d2b9d2fb801e191886c5a8974e1795dbc0a56",
+          "bytes": 23950,
+          "mediaType": "application/pdf"
+        },
+        "companion": {
+          "path": "text/SYN-VAP-DOC-10_v1.0.md",
+          "sha256": "f116eb19a7e8b909e4220ddeda054f76e97fd4c1591e1c08e63c0a948cd226cb",
+          "bytes": 1566,
+          "mediaType": "text/markdown"
+        }
+      }
+    }
+  ],
+  "completionNote": "Additive fictional resolution on correction build 1.2.1. The training schedule is invented, not legal authority; the active hold remains."
+}

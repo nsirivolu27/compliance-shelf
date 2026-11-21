@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Compliance Shelf</title>
+  <link rel="icon" type="image/svg+xml" href="/brand.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <p class="notice-bar">Demo with fictional cases. Not an official government system.</p>
+  <div class="connection-bar" id="connection-bar" role="alert" hidden>
+    <span>The local server is not responding. Saved data is safe on disk. Anything you have typed stays on this page.</span>
+    <button type="button" class="button button-small" id="connection-retry">Check again</button>
+  </div>
+
+  <div class="shell" id="shell">
+    <header class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <a class="brand" href="#/workbench">
+          <img class="brand-mark" src="/brand.svg" width="40" height="40" alt="">
+          <span class="brand-copy"><span class="brand-name">Compliance Shelf</span>
+          <span class="brand-tag" id="brand-tag">Records, contracting, and audit</span></span>
+        </a>
+        <button type="button" class="button button-small menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+      <nav id="site-nav" aria-label="Main">
+        <!-- Main work areas. Supporting tools stay under More tools. -->
+        <ul class="nav-main">
+          <li><a href="#/cases" data-route="cases">Cases</a></li>
+          <li><a href="#/workbench" data-route="workbench">Review</a></li>
+          <li><a href="#/paperwork" data-route="paperwork">Paperwork</a></li>
+          <li><a href="#/benefits" data-route="benefits">Benefits intake</a></li>
+          <li><a href="#/funding" data-route="funding">Funding</a></li>
+          <li><a href="#/auditreport" data-route="auditreport">Audit report</a></li>
+        </ul>
+        <details class="nav-more" id="nav-more">
+          <summary>More tools</summary>
+          <p class="nav-heading" id="nav-work">Work</p>
+          <ul aria-labelledby="nav-work">
+            <li><a href="#/overview" data-route="overview">Overview</a></li>
+            <li><a href="#/gaps" data-route="gaps">Gap register</a></li>
+            <li><a href="#/planning" data-route="planning">Planning</a></li>
+            <li><a href="#/evidence" data-route="evidence">Evidence library</a></li>
+            <li><a href="#/documents" data-route="documents">Documents</a></li>
+            <li><a href="#/records" data-route="records">Records</a></li>
+            <li><a href="#/tasks" data-route="tasks">Tasks</a></li>
+          </ul>
+          <p class="nav-heading" id="nav-audit">Audit</p>
+          <ul aria-labelledby="nav-audit">
+            <li><a href="#/activity" data-route="activity">Activity</a></li>
+            <li><a href="#/export" data-route="export">Audit export</a></li>
+            <li><a href="#/status" data-route="status">Service status</a></li>
+          </ul>
+          <p class="nav-heading" id="nav-reference">Reference</p>
+          <ul aria-labelledby="nav-reference">
+            <li><a href="#/video" data-route="video">Video evidence</a></li>
+            <li><a href="#/awards" data-route="awards">Public awards</a></li>
+            <li><a href="#/sources" data-route="sources">Sources</a></li>
+            <li><a href="#/profile" data-route="profile">Check profile</a></li>
+          </ul>
+        </details>
+      </nav>
+      <p class="sidebar-foot">Demo mode: no user accounts.</p>
+    </header>
+
+    <div class="content">
+      <div class="topbar">
+        <form class="asof" id="asof-form">
+          <label for="asof-input">Review date</label>
+          <input type="date" id="asof-input" name="asOf">
+          <button type="button" class="button button-quiet" id="asof-reset">Use today (UTC)</button>
+        </form>
+        <div class="topbar-right">
+          <button type="button" class="button button-quiet" id="theme-toggle" aria-pressed="false">Light theme</button>
+          <a href="#/status" id="service-link" class="status status-muted">Checking services</a>
+          <button type="button" class="button" id="agent-toggle" aria-expanded="false" aria-controls="agent-panel">Guided assistant</button>
+        </div>
+      </div>
+      <main id="main" tabindex="-1"></main>
+    </div>
+
+    <aside class="agent-panel" id="agent-panel" aria-labelledby="agent-title" hidden></aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">This workspace needs JavaScript enabled in the browser.</p></noscript>
+</body>
+</html>

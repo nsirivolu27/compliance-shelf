@@ -1,0 +1,3 @@
+# Compliance Shelf
+
+This is the submission snapshot for the independent VT x Accenture Build Challenge project. Read README.md and apps/records-contracting/docs/API.md before editing. Preserve synthetic data, pure dependency-free decision rules, unknown applicability, active holds, canDestroy=false, revision checks, idempotency and audit history. Keep the guided assistant deterministic. Do not claim official compliance, real financial transfers or benefit eligibility. Never weaken loopback, same-origin, auth or static-file protections. Run npm test, npx tsc --noEmit and npm run build. Preserve existing work; no deployments or destructive Git actions without authorization.
